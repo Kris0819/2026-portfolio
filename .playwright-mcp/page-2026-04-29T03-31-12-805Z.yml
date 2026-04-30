@@ -1,0 +1,120 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - link "app icon" [ref=e9] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/
+        - img "app icon" [ref=e10]
+      - link "Line Manager" [ref=e11] [cursor=pointer]:
+        - /url: /line/indexPage
+      - generic [ref=e13]:
+        - text: WJ3
+        - img [ref=e14]
+        - text: CDP
+        - img [ref=e16]
+        - generic [ref=e18] [cursor=pointer]:
+          - text: C01
+          - img [ref=e19]
+          - text: D-HI-L01A
+      - button [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+      - button [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+      - link:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/settings
+        - button:
+          - img
+      - button [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e31]: 2.6.0-express-ctp-1
+      - generic [ref=e32] [cursor=pointer]: KL
+  - generic [ref=e35]:
+    - generic:
+      - generic:
+        - generic:
+          - listitem:
+            - link "閾值設定":
+              - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold
+              - button "閾值設定":
+                - generic "閾值設定"
+          - listitem:
+            - link "開線設定":
+              - /url: /edge-pqm/v2/edge-pqm-frontend/settings/line-start-time
+              - button "開線設定":
+                - generic "開線設定"
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - heading "閾值設定" [level=6] [ref=e39]
+        - separator [ref=e40]
+      - tree [ref=e44]:
+        - treeitem "設備級指標" [expanded] [ref=e45]:
+          - generic [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]: 設備級指標
+            - img [ref=e49]
+          - group [ref=e51]:
+            - generic [ref=e53]:
+              - treeitem "ATT" [ref=e54]:
+                - link "ATT" [ref=e57] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/M/ATT
+                  - generic [ref=e58]: ATT
+              - treeitem "CT" [ref=e59]:
+                - link "CT" [ref=e62] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/M/CT
+                  - generic [ref=e63]: CT
+              - treeitem "UPH" [ref=e64]:
+                - link "UPH" [ref=e67] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/M/UPH
+                  - generic [ref=e68]: UPH
+              - treeitem "稼動率" [ref=e69]:
+                - link "稼動率" [ref=e72] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/M/utilization
+                  - generic [ref=e73]: 稼動率
+        - treeitem "產線級指標" [expanded] [ref=e74]:
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: 產線級指標
+            - img [ref=e78]
+          - group [ref=e80]:
+            - generic [ref=e82]:
+              - treeitem "ATT" [ref=e83]:
+                - link "ATT" [ref=e86] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/ATT
+                  - generic [ref=e87]: ATT
+              - treeitem "CT" [ref=e88]:
+                - link "CT" [ref=e91] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/CT
+                  - generic [ref=e92]: CT
+              - treeitem "UPH" [ref=e93]:
+                - link "UPH" [ref=e96] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/UPH
+                  - generic [ref=e97]: UPH
+              - treeitem "OEE" [ref=e98]:
+                - link "OEE" [ref=e101] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/OEE
+                  - generic [ref=e102]: OEE
+              - treeitem "直通率" [ref=e103]:
+                - link "直通率" [ref=e106] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/FPY
+                  - generic [ref=e107]: 直通率
+              - treeitem "稼動率" [ref=e108]:
+                - link "稼動率" [ref=e111] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/utilization
+                  - generic [ref=e112]: 稼動率
+              - treeitem "標工達成率" [ref=e113]:
+                - link "標工達成率" [ref=e116] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/P/achievement-rate
+                  - generic [ref=e117]: 標工達成率
+        - treeitem "品質分析指標" [expanded] [ref=e118]:
+          - generic [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: 品質分析指標
+            - img [ref=e122]
+          - group [ref=e124]:
+            - generic [ref=e126]:
+              - treeitem "直通率" [ref=e127]:
+                - link "直通率" [ref=e130] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/Q/FPY
+                  - generic [ref=e131]: 直通率
+              - treeitem "良率" [ref=e132]:
+                - link "良率" [ref=e135] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/settings/threshold/Q/YIELD
+                  - generic [ref=e136]: 良率

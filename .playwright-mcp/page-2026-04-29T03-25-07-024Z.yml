@@ -1,0 +1,384 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button [active] [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - link "app icon" [ref=e9] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/
+        - img "app icon" [ref=e10]
+      - link "Line Manager" [ref=e11] [cursor=pointer]:
+        - /url: /line/indexPage
+      - generic [ref=e13]:
+        - text: WJ3
+        - img [ref=e14]
+        - text: CDP
+        - img [ref=e16]
+        - generic [ref=e18] [cursor=pointer]:
+          - text: C01
+          - img [ref=e19]
+          - text: D-HI-L01A
+      - button [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+      - button [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+      - link [ref=e27] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/settings
+        - button [ref=e28]:
+          - img [ref=e29]
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - generic [ref=e35]: 2.6.0-express-ctp-1
+      - generic [ref=e36] [cursor=pointer]: KL
+  - generic [ref=e39]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - tree:
+              - treeitem "產線生產看板":
+                - link "產線生產看板" [ref=e48] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/92e91651-7069-4463-b166-f6192064b08d
+                  - generic:
+                    - generic:
+                      - img [ref=e51]
+                      - text: 產線生產看板
+              - treeitem "指標看板":
+                - link "指標看板" [ref=e56] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fe67bd90-2041-4fe5-a6aa-ca32efbfda6e
+                  - generic:
+                    - generic:
+                      - img [ref=e59]
+                      - text: 指標看板
+              - treeitem "設備狀態看板" [expanded]:
+                - generic [ref=e62] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e65]
+                      - text: 設備狀態看板
+                  - img [ref=e2002]
+                - group [ref=e2004]:
+                  - generic:
+                    - generic:
+                      - treeitem "1 - 推板機":
+                        - link "1 - 推板機" [ref=e2010] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53edbec4-8edb-4ad8-921e-8703ec9b48d4
+                          - generic: 1 - 推板機
+                      - treeitem "2 - 二次線體":
+                        - link "2 - 二次線體" [ref=e2015] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/2a46e0c3-76b7-4fe9-9c37-5f28affa4a86
+                          - generic: 2 - 二次線體
+                      - treeitem "4 - AOI不良分流機":
+                        - link "4 - AOI不良分流機" [ref=e2020] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/72d4b041-c20d-47b7-8505-5a1114ab43df
+                          - generic: 4 - AOI不良分流機
+                      - treeitem "5 - 自動LINK" [selected]:
+                        - link "5 - 自動LINK" [ref=e2025] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fa694e9b-856c-4c53-87a6-1569e6c4358c
+                          - generic: 5 - 自動LINK
+                      - treeitem "6 - 靜態測試機":
+                        - link "6 - 靜態測試機" [ref=e2030] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/49337f00-9dd4-4958-acd8-3cb33c99cb2a
+                          - generic: 6 - 靜態測試機
+                      - treeitem "7 - 靜態不良分流機":
+                        - link "7 - 靜態不良分流機" [ref=e2035] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/6283057a-f85d-4960-8fbf-4de4b277c223
+                          - generic: 7 - 靜態不良分流機
+                      - treeitem "8 - 自動FUT1":
+                        - link "8 - 自動FUT1" [ref=e2040] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/e3bad0e0-5d51-4de5-9084-e938ce00cc1a
+                          - generic: 8 - 自動FUT1
+                      - treeitem "9 - 自動FUT2":
+                        - link "9 - 自動FUT2" [ref=e2045] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ad16c387-9fbb-48b5-a7f7-165fb5a2935c
+                          - generic: 9 - 自動FUT2
+                      - treeitem "10 - ICT後翻板移栽1":
+                        - link "10 - ICT後翻板移栽1" [ref=e2050] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/3782b107-c6dd-4475-8488-12fe099a1e67
+                          - generic: 10 - ICT後翻板移栽1
+                      - treeitem "12 - ICT後不良分流機-2":
+                        - link "12 - ICT後不良分流機-2" [ref=e2055] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/218d386d-d1f7-43e3-8d2f-4a9e5fd90c85
+                          - generic: 12 - ICT後不良分流機-2
+                      - treeitem "14 - 噴膠機2-1":
+                        - link "14 - 噴膠機2-1" [ref=e2060] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/b425b823-a567-4288-9837-8d62a103692d
+                          - generic: 14 - 噴膠機2-1
+                      - treeitem "15 - ICT後翻板移栽2":
+                        - link "15 - ICT後翻板移栽2" [ref=e2065] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/b4f7abc4-4517-4c8c-8342-b6563dcbcbdf
+                          - generic: 15 - ICT後翻板移栽2
+                      - treeitem "17 - 噴膠機2-2":
+                        - link "17 - 噴膠機2-2" [ref=e2070] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/9164352f-db48-4936-b2ab-8c3d0e542503
+                          - generic: 17 - 噴膠機2-2
+                      - treeitem "19 - UV炉-2":
+                        - link "19 - UV炉-2" [ref=e2075] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/1a3327b6-e297-44d3-9bcd-f1ffd27aa093
+                          - generic: 19 - UV炉-2
+                      - treeitem "21 - 分板機-2":
+                        - link "21 - 分板機-2" [ref=e2080] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/a8f37bcd-72a0-4dad-bb9a-d3906d6e561d
+                          - generic: 21 - 分板機-2
+            - separator
+            - tree:
+              - treeitem "Edge TMM":
+                - generic [ref=e73] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e76]
+                      - text: Edge TMM
+                  - img [ref=e79]
+            - tree:
+              - treeitem "Edge Facility":
+                - generic [ref=e83] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e86]
+                      - text: Edge Facility
+                  - img [ref=e89]
+            - tree:
+              - treeitem "Holmes-M":
+                - generic [ref=e93] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e96]
+                      - text: Holmes-M
+                  - img [ref=e100]
+            - separator
+            - tree:
+              - treeitem "自訂看板" [expanded]:
+                - generic [ref=e105] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e108]
+                      - text: 自訂看板
+                      - img [ref=e110]
+                  - img [ref=e113]
+                - group [ref=e115]:
+                  - generic:
+                    - generic:
+                      - treeitem "12345":
+                        - link "12345" [ref=e121] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/28244f4f-c9db-406c-b286-8113b1146f65
+                          - generic: "12345"
+                      - treeitem "標工達成率":
+                        - link "標工達成率" [ref=e126] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/13cd74b6-1eb3-4f50-bd54-a090568c84c7
+                          - generic: 標工達成率
+                      - treeitem "廣義直通率看板":
+                        - link "廣義直通率看板" [ref=e131] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53fbe5bb-b9b5-4b20-a9bb-06315bf716bb
+                          - generic: 廣義直通率看板
+                      - treeitem "產線設備狀態看板":
+                        - link "產線設備狀態看板" [ref=e136] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ac0cfbd7-e3d7-4dc9-a16e-67a594f38aae
+                          - generic: 產線設備狀態看板
+    - generic [ref=e2113]:
+      - generic [ref=e2114]:
+        - generic [ref=e2115]:
+          - generic [ref=e2117]:
+            - group [ref=e2118]:
+              - button "監控" [ref=e2119] [cursor=pointer]
+              - button "預覽" [ref=e2120] [cursor=pointer]
+            - generic [ref=e2121]:
+              - button "全螢幕" [ref=e2122] [cursor=pointer]:
+                - img [ref=e2123]
+              - button "複製看板" [ref=e2125] [cursor=pointer]:
+                - img [ref=e2126]
+          - heading "Edge PQM • 5 - 自動LINK" [level=6] [ref=e2128]:
+            - heading "Edge PQM • 5 - 自動LINK" [level=6] [ref=e2131]:
+              - generic [ref=e2132]: Edge PQM • 5 - 自動LINK
+          - generic [ref=e2134]:
+            - button "文字大小" [ref=e2135] [cursor=pointer]:
+              - img [ref=e2136]
+            - button "更新" [ref=e2138] [cursor=pointer]:
+              - img [ref=e2139]
+        - separator [ref=e2141]
+      - generic [ref=e2145]:
+        - generic:
+          - generic:
+            - generic [ref=e2153]:
+              - img [ref=e2154]
+              - generic "設備即時狀態" [ref=e2158]:
+                - generic [ref=e2159]: 設備即時狀態
+              - generic [ref=e2160]:
+                - button [ref=e2161] [cursor=pointer]:
+                  - img [ref=e2162]
+                - button [ref=e2165] [cursor=pointer]:
+                  - img [ref=e2166]
+            - generic [ref=e2176]:
+              - generic [ref=e2177]:
+                - img [ref=e2178]
+                - generic "設備即時基本資訊" [ref=e2182]:
+                  - generic [ref=e2183]: 設備即時基本資訊
+                - generic [ref=e2185]:
+                  - generic [ref=e2187]: 自動LINK
+                  - generic [ref=e2189]: OP
+                - generic [ref=e2190]:
+                  - button [ref=e2191] [cursor=pointer]:
+                    - img [ref=e2192]
+                  - button [ref=e2195] [cursor=pointer]:
+                    - img [ref=e2196]
+              - generic [ref=e2205]:
+                - generic [ref=e2206]:
+                  - paragraph [ref=e2207]: 站點名稱
+                  - paragraph [ref=e2208]: PLC.D00.E322122303
+                - separator [ref=e2209]
+                - generic [ref=e2210]:
+                  - paragraph [ref=e2211]: 設備 ID
+                  - paragraph [ref=e2212]: E322122303
+                - separator [ref=e2213]
+                - generic [ref=e2214]:
+                  - paragraph [ref=e2215]: 設備型號
+                  - paragraph [ref=e2216]: AM-O0301127-0000
+                - separator [ref=e2217]
+            - generic [ref=e2222]:
+              - generic [ref=e2223]:
+                - img [ref=e2224]
+                - generic "設備即時關鍵指標" [ref=e2228]:
+                  - generic [ref=e2229]: 設備即時關鍵指標
+                - generic [ref=e2231]:
+                  - generic [ref=e2233]: 自動LINK
+                  - generic [ref=e2235]: OP
+                - generic [ref=e2236]:
+                  - button [ref=e2237] [cursor=pointer]:
+                    - img [ref=e2238]
+                  - button [ref=e2241] [cursor=pointer]:
+                    - img [ref=e2242]
+              - generic [ref=e2250]:
+                - generic [ref=e2251]:
+                  - paragraph [ref=e2252]: 設備狀態
+                  - paragraph [ref=e2253]: 待機
+                - generic [ref=e2254]:
+                  - paragraph [ref=e2255]: 稼動率
+                  - paragraph [ref=e2256]: 28.6%
+                - generic [ref=e2257]:
+                  - paragraph [ref=e2258]: ATT
+                  - paragraph [ref=e2259]: 3 分 31.74 秒
+                - generic [ref=e2260]:
+                  - paragraph [ref=e2261]: CT
+                  - paragraph [ref=e2262]: 3 分 26.99 秒
+                - generic [ref=e2263]:
+                  - paragraph [ref=e2264]: UPH
+                  - paragraph [ref=e2265]: 171 pcs
+                - generic [ref=e2266]:
+                  - paragraph [ref=e2267]: 平均停機時間
+                  - paragraph [ref=e2268]: 14 秒
+                - generic [ref=e2269]:
+                  - paragraph [ref=e2270]: 總停機時間 / 次數
+                  - paragraph [ref=e2271]: 39 分 56 秒 / 175
+            - generic [ref=e2277]:
+              - img [ref=e2278]
+              - generic "設備即時 ATT" [ref=e2282]:
+                - generic [ref=e2283]: 設備即時 ATT
+              - generic [ref=e2285]:
+                - generic [ref=e2287]: 自動LINK
+                - generic [ref=e2289]: OP
+              - generic [ref=e2290]:
+                - button [ref=e2291] [cursor=pointer]:
+                  - img [ref=e2292]
+                - button [ref=e2295] [cursor=pointer]:
+                  - img [ref=e2296]
+            - generic [ref=e2312]:
+              - img [ref=e2313]
+              - generic "設備即時 CT" [ref=e2317]:
+                - generic [ref=e2318]: 設備即時 CT
+              - generic [ref=e2320]:
+                - generic [ref=e2322]: 自動LINK
+                - generic [ref=e2324]: OP
+              - generic [ref=e2325]:
+                - button [ref=e2326] [cursor=pointer]:
+                  - img [ref=e2327]
+                - button [ref=e2330] [cursor=pointer]:
+                  - img [ref=e2331]
+            - generic [ref=e2347]:
+              - img [ref=e2348]
+              - generic "設備每小時 UPH" [ref=e2352]:
+                - generic [ref=e2353]: 設備每小時 UPH
+              - generic [ref=e2355]:
+                - generic [ref=e2357]: 自動LINK
+                - generic [ref=e2359]: OP
+              - generic [ref=e2360]:
+                - button [ref=e2361] [cursor=pointer]:
+                  - img [ref=e2362]
+                - button [ref=e2365] [cursor=pointer]:
+                  - img [ref=e2366]
+            - generic [ref=e2382]:
+              - img [ref=e2383]
+              - generic "設備每小時稼動率" [ref=e2387]:
+                - generic [ref=e2388]: 設備每小時稼動率
+              - generic [ref=e2390]:
+                - generic [ref=e2392]: 自動LINK
+                - generic [ref=e2394]: OP
+              - generic [ref=e2395]:
+                - button [ref=e2396] [cursor=pointer]:
+                  - img [ref=e2397]
+                - button [ref=e2400] [cursor=pointer]:
+                  - img [ref=e2401]
+            - generic [ref=e2416]:
+              - generic [ref=e2417]:
+                - img [ref=e2418]
+                - generic "設備即時停機時間" [ref=e2422]:
+                  - generic [ref=e2423]: 設備即時停機時間
+                - generic [ref=e2425]:
+                  - generic [ref=e2427]: 自動LINK
+                  - generic [ref=e2429]: OP
+                - generic [ref=e2430]:
+                  - button [ref=e2431] [cursor=pointer]:
+                    - img [ref=e2432]
+                  - button [ref=e2435] [cursor=pointer]:
+                    - img [ref=e2436]
+              - generic [ref=e2443]:
+                - img [ref=e2444]
+                - paragraph [ref=e2456]: No Data
+            - generic [ref=e2462]:
+              - img [ref=e2463]
+              - generic "設備即時 OEE" [ref=e2467]:
+                - generic [ref=e2468]: 設備即時 OEE
+              - generic [ref=e2507]:
+                - generic [ref=e2509]: 自動LINK
+                - generic [ref=e2511]: OP
+              - generic [ref=e2469]:
+                - button [ref=e2470] [cursor=pointer]:
+                  - img [ref=e2471]
+                - button [ref=e2474] [cursor=pointer]:
+                  - img [ref=e2475]
+            - generic [ref=e2485]:
+              - generic [ref=e2486]:
+                - img [ref=e2487]
+                - generic "設備即時 Error Code 排行" [ref=e2491]:
+                  - generic [ref=e2492]: 設備即時 Error Code 排行
+                - generic [ref=e2518]:
+                  - generic [ref=e2520]: 自動LINK
+                  - generic [ref=e2522]: OP
+                - generic [ref=e2493]:
+                  - button [ref=e2494] [cursor=pointer]:
+                    - img [ref=e2495]
+                  - button [ref=e2498] [cursor=pointer]:
+                    - img [ref=e2499]
+              - generic [ref=e2524]:
+                - generic [ref=e2525]:
+                  - generic [ref=e2526]:
+                    - text: 根據
+                    - generic [ref=e2527]:
+                      - generic [ref=e2528] [cursor=pointer]:
+                        - generic [ref=e2529]:
+                          - radio "錯誤次數" [ref=e2530]
+                          - img [ref=e2532]
+                        - paragraph [ref=e2534]: 錯誤次數
+                      - generic [ref=e2535] [cursor=pointer]:
+                        - generic [ref=e2536]:
+                          - radio "錯誤累計時長" [checked] [ref=e2537]
+                          - generic [ref=e2538]:
+                            - img [ref=e2539]
+                            - img [ref=e2541]
+                        - paragraph [ref=e2543]: 錯誤累計時長
+                    - text: 統計
+                  - generic [ref=e2544] [cursor=pointer]:
+                    - generic [ref=e2545]:
+                      - checkbox "僅統計品質錯誤" [ref=e2546]
+                      - img [ref=e2547]
+                    - paragraph [ref=e2549]: 僅統計品質錯誤
+                - generic [ref=e2551]:
+                  - img [ref=e2552]
+                  - paragraph [ref=e2564]: No Data

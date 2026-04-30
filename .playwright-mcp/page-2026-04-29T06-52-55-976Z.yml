@@ -1,0 +1,305 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - link "app icon" [ref=e681] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/
+        - img "app icon" [ref=e682]
+      - link "Line Manager" [ref=e683] [cursor=pointer]:
+        - /url: /line/indexPage
+      - generic [ref=e13]:
+        - text: WJ3
+        - img [ref=e14]
+        - text: CDP
+        - img [ref=e16]
+        - generic [ref=e18] [cursor=pointer]:
+          - text: C01
+          - img [ref=e19]
+          - text: D-HI-L01A
+      - button [active] [ref=e21] [cursor=pointer]:
+        - img [ref=e703]
+      - button [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+      - link [ref=e27] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/settings
+        - button [ref=e28]:
+          - img [ref=e29]
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - generic [ref=e35]: 2.6.0-express-ctp-1
+      - generic [ref=e36] [cursor=pointer]: KL
+  - generic [ref=e39]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - tree:
+              - treeitem "Dashboard":
+                - link "Dashboard" [ref=e684] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/92e91651-7069-4463-b166-f6192064b08d
+                  - generic:
+                    - generic:
+                      - img [ref=e41]
+                      - text: Dashboard
+              - treeitem "KPI Panel":
+                - link "KPI Panel" [ref=e685] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fe67bd90-2041-4fe5-a6aa-ca32efbfda6e
+                  - generic:
+                    - generic:
+                      - img [ref=e44]
+                      - text: KPI Panel
+              - treeitem "Machine":
+                - generic [ref=e46] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e47]
+                      - text: Machine
+                  - img [ref=e50]
+            - separator
+            - tree:
+              - treeitem "Edge TMM":
+                - generic [ref=e52] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e53]
+                      - text: Edge TMM
+                  - img [ref=e56]
+            - tree:
+              - treeitem "Edge Facility":
+                - generic [ref=e58] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e59]
+                      - text: Edge Facility
+                  - img [ref=e62]
+            - tree:
+              - treeitem "Holmes-M":
+                - generic [ref=e64] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e65]
+                      - text: Holmes-M
+                  - img [ref=e69]
+            - separator
+            - tree:
+              - treeitem "Customized" [expanded]:
+                - generic [ref=e71] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e72]
+                      - text: Customized
+                      - img [ref=e74]
+                  - img [ref=e77]
+                - group [ref=e79]:
+                  - generic:
+                    - generic:
+                      - treeitem "標工達成率" [selected]:
+                        - link "標工達成率" [ref=e686] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/13cd74b6-1eb3-4f50-bd54-a090568c84c7
+                          - generic: 標工達成率
+                      - treeitem "廣義直通率看板":
+                        - link "廣義直通率看板" [ref=e687] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53fbe5bb-b9b5-4b20-a9bb-06315bf716bb
+                          - generic: 廣義直通率看板
+                      - treeitem "產線設備狀態看板":
+                        - link "產線設備狀態看板" [ref=e688] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ac0cfbd7-e3d7-4dc9-a16e-67a594f38aae
+                          - generic: 產線設備狀態看板
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e89]:
+            - group [ref=e90]:
+              - button "monitor" [ref=e689] [cursor=pointer]
+              - button "preview" [ref=e690] [cursor=pointer]
+            - generic [ref=e93]:
+              - button "enter fullscreen" [ref=e691] [cursor=pointer]:
+                - img [ref=e95]
+              - button "add a widget" [ref=e692] [cursor=pointer]:
+                - img [ref=e98]
+              - button "clone the dashboard" [ref=e693] [cursor=pointer]:
+                - img [ref=e101]
+              - separator [ref=e103]
+              - button "remove the dashboard" [ref=e694] [cursor=pointer]:
+                - img [ref=e105]
+          - heading "標工達成率 標工達成率" [level=6] [ref=e695]:
+            - generic [ref=e108]:
+              - img [ref=e109]
+              - heading "標工達成率 標工達成率" [level=6] [ref=e696]:
+                - generic:
+                  - textbox: 標工達成率
+                - generic [ref=e113]:
+                  - text: 標工達成率
+                  - img [ref=e114]
+          - generic [ref=e117]:
+            - button "text size" [ref=e697] [cursor=pointer]:
+              - img [ref=e119]
+            - button "refresh" [ref=e698] [cursor=pointer]:
+              - img [ref=e122]
+        - separator [ref=e124]
+      - generic [ref=e128]:
+        - generic:
+          - generic:
+            - generic [ref=e136]:
+              - img [ref=e137]
+              - generic "Line Hourly UPH" [ref=e699]:
+                - generic [ref=e142]: Line Hourly UPH
+              - generic [ref=e145]: D-HI-L01A
+              - generic [ref=e146]:
+                - button [ref=e147] [cursor=pointer]:
+                  - img [ref=e148]
+                - button [ref=e151] [cursor=pointer]:
+                  - img [ref=e152]
+            - generic [ref=e168]:
+              - img [ref=e169]
+              - generic "Line Hourly Standard Work Achieved Rate" [ref=e700]:
+                - generic [ref=e174]: Line Hourly Standard Work Achieved Rate
+              - generic [ref=e177]: D-HI-L01A
+              - generic [ref=e178]:
+                - button [ref=e179] [cursor=pointer]:
+                  - img [ref=e180]
+                - button [ref=e183] [cursor=pointer]:
+                  - img [ref=e184]
+            - generic [ref=e200]:
+              - img [ref=e201]
+              - generic "Line Hourly FPYR" [ref=e701]:
+                - generic [ref=e206]: Line Hourly FPYR
+              - generic [ref=e209]: D-HI-L01A
+              - generic [ref=e210]:
+                - button [ref=e211] [cursor=pointer]:
+                  - img [ref=e212]
+                - button [ref=e215] [cursor=pointer]:
+                  - img [ref=e216]
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - img [ref=e238]
+                - generic "Line Hourly Standard Work Achieved Rate" [ref=e702]:
+                  - generic [ref=e243]: Line Hourly Standard Work Achieved Rate
+                - generic [ref=e246]: D-HI-L01A
+                - generic [ref=e247]:
+                  - button [ref=e248] [cursor=pointer]:
+                    - img [ref=e249]
+                  - button [ref=e252] [cursor=pointer]:
+                    - img [ref=e253]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - paragraph [ref=e264]: 08:00 - 09:00
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: 81%
+                    - generic [ref=e268]: 65/80
+                - generic [ref=e269]:
+                  - paragraph [ref=e270]: 09:00 - 10:00
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: 102%
+                    - generic [ref=e274]: 82/80
+                - generic [ref=e275]:
+                  - paragraph [ref=e276]: 10:00 - 11:00
+                  - generic [ref=e278]:
+                    - generic [ref=e279]: 60%
+                    - generic [ref=e280]: 48/80
+                - generic [ref=e281]:
+                  - paragraph [ref=e282]: 11:00 - 12:00
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: 80%
+                    - generic [ref=e286]: 64/80
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: 12:00 - 13:00
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: 98%
+                    - generic [ref=e292]: 78/80
+                - generic [ref=e293]:
+                  - paragraph [ref=e294]: 13:00 - 14:00
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: 73%
+                    - generic [ref=e298]: 58/80
+                - generic [ref=e299]:
+                  - paragraph [ref=e300]: 14:00 - 15:00
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: 53%
+                    - generic [ref=e304]: 37/70
+                - generic [ref=e305]:
+                  - paragraph [ref=e306]: 15:00 - 16:00 Break
+                  - generic [ref=e308]:
+                    - generic [ref=e309]: "-"
+                    - generic [ref=e310]: "-/-"
+                - generic [ref=e311]:
+                  - paragraph [ref=e312]: 16:00 - 17:00 Break
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: "-"
+                    - generic [ref=e316]: "-/-"
+                - generic [ref=e317]:
+                  - paragraph [ref=e318]: 17:00 - 18:00 Break
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: "-"
+                    - generic [ref=e322]: "-/-"
+                - generic [ref=e323]:
+                  - paragraph [ref=e324]: 18:00 - 19:00 Break
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: "-"
+                    - generic [ref=e328]: "-/-"
+                - generic [ref=e329]:
+                  - paragraph [ref=e330]: 19:00 - 20:00 Break
+                  - generic [ref=e332]:
+                    - generic [ref=e333]: "-"
+                    - generic [ref=e334]: "-/-"
+                - generic [ref=e335]:
+                  - paragraph [ref=e336]: 20:00 - 21:00 Break
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: "-"
+                    - generic [ref=e340]: "-/-"
+                - generic [ref=e341]:
+                  - paragraph [ref=e342]: 21:00 - 22:00 Break
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: "-"
+                    - generic [ref=e346]: "-/-"
+                - generic [ref=e347]:
+                  - paragraph [ref=e348]: 22:00 - 23:00 Break
+                  - generic [ref=e350]:
+                    - generic [ref=e351]: "-"
+                    - generic [ref=e352]: "-/-"
+                - generic [ref=e353]:
+                  - paragraph [ref=e354]: 23:00 - 00:00 Break
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: "-"
+                    - generic [ref=e358]: "-/-"
+                - generic [ref=e359]:
+                  - paragraph [ref=e360]: 00:00 - 01:00 Break
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: "-"
+                    - generic [ref=e364]: "-/-"
+                - generic [ref=e365]:
+                  - paragraph [ref=e366]: 01:00 - 02:00 Break
+                  - generic [ref=e368]:
+                    - generic [ref=e369]: "-"
+                    - generic [ref=e370]: "-/-"
+                - generic [ref=e371]:
+                  - paragraph [ref=e372]: 02:00 - 03:00 Break
+                  - generic [ref=e374]:
+                    - generic [ref=e375]: "-"
+                    - generic [ref=e376]: "-/-"
+                - generic [ref=e377]:
+                  - paragraph [ref=e378]: 03:00 - 04:00 Break
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: "-"
+                    - generic [ref=e382]: "-/-"
+                - generic [ref=e383]:
+                  - paragraph [ref=e384]: 04:00 - 05:00 Break
+                  - generic [ref=e386]:
+                    - generic [ref=e387]: "-"
+                    - generic [ref=e388]: "-/-"
+                - generic [ref=e389]:
+                  - paragraph [ref=e390]: 05:00 - 06:00 Break
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: "-"
+                    - generic [ref=e394]: "-/-"
+                - generic [ref=e395]:
+                  - paragraph [ref=e396]: 06:00 - 07:00 Break
+                  - generic [ref=e398]:
+                    - generic [ref=e399]: "-"
+                    - generic [ref=e400]: "-/-"
+                - generic [ref=e401]:
+                  - paragraph [ref=e402]: 07:00 - 08:00 Break
+                  - generic [ref=e404]:
+                    - generic [ref=e405]: "-"
+                    - generic [ref=e406]: "-/-"

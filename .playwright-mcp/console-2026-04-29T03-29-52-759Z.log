@@ -1,0 +1,30 @@
+[    3145ms] [LOG] runtime-vars.js loaded @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DRH_Lz_A.js:1
+[    3428ms] [LOG] Line manager keycloak is initialized {url: http://10.181.56.248, realm: delta, clientId: public-client} @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:243
+[    3434ms] [LOG] [debugTSPaths] ... OK! @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:494
+[    3446ms] [LOG] Current Mode: %cnormal color: yellow; font-weight: bold; @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:551
+[    3447ms] [LOG] import.meta.env {BASE_URL: /edge-pqm/v2/edge-pqm-frontend/, DEV: false, MODE: production, PROD: true, SSR: false} @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:551
+[    3447ms] [LOG] runtimeVars {DEPLOY_ENV: , AUTH_PROVIDERS: DELTA_AUTH_PLATFORM,KEYCLOAK, KC_LINE_MANAGER_URL: , KC_LINE_MANAGER_REALM: delta, KC_LINE_MANAGER_CLIENT_ID: public-client} @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:551
+[    3447ms] [LOG] isEmbeded false @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:551
+[    3448ms] [LOG] {@common.en-US.json5: , @common.th-TH.json5: , @common.zh-CN.json5: , @common.zh-TW.json5: , @intl.json5: } @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:58
+[    3674ms] [LOG] exp Wed Apr 29 2026 17:22:29 GMT+0800 (台北標準時間) @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:230
+[    3674ms] [LOG] now Wed Apr 29 2026 11:29:56 GMT+0800 (台北標準時間) @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:230
+[    3834ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://10.181.56.248/realms/delta/protocol/openid-connect/3p-cookies/step1.html:0
+[    3931ms] [LOG] {prodFactories: Array(0), lines: Array(0), machines: Array(0)} @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:510
+[    3947ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://10.181.56.248/realms/delta/protocol/openid-connect/3p-cookies/step2.html:0
+[    4096ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://10.181.56.248/realms/delta/protocol/openid-connect/login-status-iframe.html:0
+[    4730ms] [INFO] [withDateFnsLocale] Successfully load date-fns locale for language = zh-TW @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-DcRHy123.js:507
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4888ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4889ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4889ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4889ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4889ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4889ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4889ms] [WARNING] [DEPRECATED] Please use `subscribeWithSelector` middleware @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2
+[    4993ms] [LOG] %cⓘ onLayoutChange font-weight: 700; font-size: 14px; color: #00ADEF @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/index-iNcNn1ob.js:5
+[    4996ms] [LOG] A sync is queued. (reason = internal:layout-change) @ http://10.181.56.248/edge-pqm/v2/edge-pqm-frontend/assets/KPIViewProvider-Cz_R_5jU.js:2

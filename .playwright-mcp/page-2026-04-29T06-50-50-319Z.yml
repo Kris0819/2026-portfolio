@@ -1,0 +1,741 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - link "app icon" [ref=e9] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/
+        - img "app icon" [ref=e10]
+      - link "Line Manager" [ref=e11] [cursor=pointer]:
+        - /url: /line/indexPage
+      - generic [ref=e13]:
+        - text: WJ3
+        - img [ref=e14]
+        - text: CDP
+        - img [ref=e16]
+        - generic [ref=e18] [cursor=pointer]:
+          - text: C01
+          - img [ref=e19]
+          - text: D-HI-L01A
+      - button [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+      - button [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+      - link [ref=e27] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/settings
+        - button [ref=e28]:
+          - img [ref=e29]
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - generic [ref=e35]: 2.6.0-express-ctp-1
+      - generic [ref=e36] [cursor=pointer]: KL
+  - generic [ref=e39]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - tree:
+              - treeitem "Dashboard" [selected]:
+                - link "Dashboard" [ref=e40] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/92e91651-7069-4463-b166-f6192064b08d
+                  - generic:
+                    - generic:
+                      - img [ref=e41]
+                      - text: Dashboard
+              - treeitem "KPI Panel":
+                - link "KPI Panel" [ref=e43] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fe67bd90-2041-4fe5-a6aa-ca32efbfda6e
+                  - generic:
+                    - generic:
+                      - img [ref=e44]
+                      - text: KPI Panel
+              - treeitem "Machine":
+                - generic [ref=e46] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e47]
+                      - text: Machine
+                  - img [ref=e50]
+            - separator
+            - tree:
+              - treeitem "Edge TMM":
+                - generic [ref=e52] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e53]
+                      - text: Edge TMM
+                  - img [ref=e56]
+            - tree:
+              - treeitem "Edge Facility":
+                - generic [ref=e58] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e59]
+                      - text: Edge Facility
+                  - img [ref=e62]
+            - tree:
+              - treeitem "Holmes-M":
+                - generic [ref=e64] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e65]
+                      - text: Holmes-M
+                  - img [ref=e69]
+            - separator
+            - tree:
+              - treeitem "Customized" [expanded]:
+                - generic [ref=e71] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e72]
+                      - text: Customized
+                      - img [ref=e74]
+                  - img [ref=e77]
+                - group [ref=e79]:
+                  - generic:
+                    - generic:
+                      - treeitem "標工達成率":
+                        - link "標工達成率" [ref=e80] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/13cd74b6-1eb3-4f50-bd54-a090568c84c7
+                          - generic: 標工達成率
+                      - treeitem "廣義直通率看板":
+                        - link "廣義直通率看板" [ref=e81] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53fbe5bb-b9b5-4b20-a9bb-06315bf716bb
+                          - generic: 廣義直通率看板
+                      - treeitem "產線設備狀態看板":
+                        - link "產線設備狀態看板" [ref=e82] [cursor=pointer]:
+                          - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ac0cfbd7-e3d7-4dc9-a16e-67a594f38aae
+                          - generic: 產線設備狀態看板
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e89]:
+              - group [ref=e90]:
+                - button [ref=e972] [cursor=pointer]: monitor
+                - button [ref=e973] [cursor=pointer]: preview
+              - generic [ref=e93]:
+                - button [ref=e974] [cursor=pointer]:
+                  - img [ref=e95]
+                - button [ref=e975] [cursor=pointer]:
+                  - img [ref=e98]
+            - heading [level=6] [ref=e976]:
+              - heading [level=6] [ref=e977]:
+                - generic [ref=e104]: Edge PQM • Dashboard
+            - generic [ref=e106]:
+              - button [ref=e978] [cursor=pointer]:
+                - img [ref=e108]
+              - button [ref=e979] [cursor=pointer]:
+                - img [ref=e111]
+          - separator [ref=e113]
+        - generic [ref=e117]:
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - img [ref=e126]
+              - generic [ref=e131]: Line Realtime Production Information
+              - generic [ref=e134]: D-HI-L01A
+              - generic [ref=e135]:
+                - button [ref=e136] [cursor=pointer]:
+                  - img [ref=e137]
+                - button [ref=e140] [cursor=pointer]:
+                  - img [ref=e141]
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - paragraph [ref=e151]: Work Order
+                - paragraph [ref=e152]: "36126001897"
+              - separator [ref=e153]
+              - generic [ref=e154]:
+                - paragraph [ref=e155]: Model
+                - paragraph [ref=e156]: "5503795301"
+              - separator [ref=e157]
+              - generic [ref=e158]:
+                - paragraph [ref=e159]: Automation Rate
+                - paragraph [ref=e160]: 92.3%
+              - separator [ref=e161]
+              - generic [ref=e162]:
+                - paragraph [ref=e163]: Connected Rate
+                - paragraph [ref=e164]: 93.8%
+              - separator [ref=e165]
+              - generic [ref=e166]:
+                - paragraph [ref=e167]: Line Smart Level
+                - paragraph [ref=e168]: "3"
+              - separator [ref=e169]
+              - generic [ref=e170]:
+                - paragraph [ref=e171]: Use Case Count
+                - paragraph [ref=e172]: "9"
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - img [ref=e179]
+              - generic [ref=e184]: Line Realtime Machines State Count
+              - generic [ref=e187]: D-HI-L01A
+              - generic [ref=e188]:
+                - button [ref=e189] [cursor=pointer]:
+                  - img [ref=e190]
+                - button [ref=e193] [cursor=pointer]:
+                  - img [ref=e194]
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - progressbar [ref=e203]:
+                  - img [ref=e204]
+                - progressbar [ref=e206]:
+                  - img [ref=e207]
+                - generic [ref=e210]:
+                  - paragraph [ref=e211]: Running
+                  - paragraph [ref=e212]: "7"
+              - generic [ref=e213]:
+                - progressbar [ref=e214]:
+                  - img [ref=e215]
+                - progressbar [ref=e217]:
+                  - img [ref=e218]
+                - generic [ref=e221]:
+                  - paragraph [ref=e222]: Standby
+                  - paragraph [ref=e223]: "6"
+              - generic [ref=e224]:
+                - progressbar [ref=e225]:
+                  - img [ref=e226]
+                - progressbar [ref=e228]:
+                  - img [ref=e229]
+                - generic [ref=e232]:
+                  - paragraph [ref=e233]: Error
+                  - paragraph [ref=e234]: "0"
+              - generic [ref=e235]:
+                - progressbar [ref=e236]:
+                  - img [ref=e237]
+                - progressbar [ref=e239]:
+                  - img [ref=e240]
+                - generic [ref=e243]:
+                  - paragraph [ref=e244]: Disconnected
+                  - paragraph [ref=e245]: "2"
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - img [ref=e252]
+              - generic [ref=e257]: 24H Line Utilization and OEE
+              - generic [ref=e260]: D-HI-L01A
+              - generic [ref=e261]:
+                - button [ref=e262] [cursor=pointer]:
+                  - img [ref=e263]
+                - button [ref=e266] [cursor=pointer]:
+                  - img [ref=e267]
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - paragraph [ref=e277]:
+                  - text: Utilization
+                  - paragraph [ref=e278]: (Offline time excluded)
+                - paragraph [ref=e279]: 54.7%
+              - generic [ref=e280]:
+                - paragraph [ref=e281]:
+                  - text: OEE
+                  - paragraph [ref=e282]: (Offline time included)
+                - paragraph [ref=e283]: 54.5%
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - img [ref=e290]
+              - generic [ref=e295]: Line Realtime FPY
+              - generic [ref=e298]: D-HI-L01A
+              - generic [ref=e299]:
+                - button [ref=e300] [cursor=pointer]:
+                  - img [ref=e301]
+                - button [ref=e304] [cursor=pointer]:
+                  - img [ref=e305]
+            - generic [ref=e313]:
+              - generic [ref=e314]:
+                - paragraph [ref=e315]: CTQ FPYR
+                - paragraph [ref=e316]: 100.0%
+              - generic [ref=e317]:
+                - paragraph [ref=e318]: CTP FPYR
+                - paragraph [ref=e319]:
+                  - text: 99.9%
+                  - img [ref=e320] [cursor=pointer]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - img [ref=e328]
+              - generic [ref=e333]: Real-time UPH and ATT
+              - generic [ref=e336]: D-HI-L01A
+              - generic [ref=e337]:
+                - button [ref=e338] [cursor=pointer]:
+                  - img [ref=e339]
+                - button [ref=e342] [cursor=pointer]:
+                  - img [ref=e343]
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - paragraph [ref=e353]: "46"
+                  - paragraph [ref=e354]: piece/h
+                  - img [ref=e356]
+                - paragraph [ref=e358]: Expected Output (UPH)
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - paragraph [ref=e361]:
+                    - text: "1"
+                    - paragraph [ref=e362]: m
+                    - text: "17.69"
+                    - paragraph [ref=e363]: s
+                  - paragraph [ref=e364]: /piece
+                  - img [ref=e366]
+                - paragraph [ref=e368]: Expected Takt Time (ATT)
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - img [ref=e375]
+              - generic [ref=e380]: Real-time Standard Work Achieved Rate and Bottleneck Stations
+              - generic [ref=e383]: D-HI-L01A
+              - generic [ref=e384]:
+                - button [ref=e385] [cursor=pointer]:
+                  - img [ref=e386]
+                - button [ref=e389] [cursor=pointer]:
+                  - img [ref=e390]
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - paragraph [ref=e400]: "55.5"
+                  - paragraph [ref=e401]: "%"
+                  - img [ref=e403]
+                - paragraph [ref=e405]: Expected Standard Work Achieved Rate
+              - generic [ref=e406]:
+                - generic [ref=e407]:
+                  - paragraph [ref=e408]:
+                    - text: "34.00"
+                    - paragraph [ref=e409]: s
+                  - paragraph [ref=e410]: /piece
+                  - img [ref=e412]
+                - paragraph [ref=e414]: Current Bottleneck Station CT Time
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - img [ref=e421]
+              - generic [ref=e426]: Line Realtime Machines Information
+              - generic [ref=e429]: D-HI-L01A
+              - generic [ref=e430]:
+                - button [ref=e431] [cursor=pointer]:
+                  - img [ref=e432]
+                - button [ref=e435] [cursor=pointer]:
+                  - img [ref=e436]
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - paragraph [ref=e447]: Running
+                - paragraph [ref=e450]: Standby
+                - paragraph [ref=e453]: Error
+                - paragraph [ref=e456]: Disconnected
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - heading [level=6] [ref=e987]:
+                      - link [ref=e988] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53edbec4-8edb-4ad8-921e-8703ec9b48d4
+                        - text: 1 - 推板機
+                    - generic [ref=e463]: OP
+                  - generic [ref=e465]:
+                    - paragraph [ref=e466]: "Utilization : 0.0%"
+                    - table [ref=e468]:
+                      - rowgroup [ref=e469]:
+                        - row [ref=e989]:
+                          - columnheader [ref=e990]: Lane
+                          - columnheader [ref=e991]: UPH (Pcs)
+                          - columnheader [ref=e992]: CT (s)
+                      - rowgroup [ref=e474]:
+                        - row [ref=e993]:
+                          - cell [ref=e994]: "#1"
+                          - cell [ref=e995]: "-"
+                          - cell [ref=e996]: "-"
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - heading [level=6] [ref=e997]:
+                      - link [ref=e998] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/2a46e0c3-76b7-4fe9-9c37-5f28affa4a86
+                        - text: 2 - 二次線體
+                    - generic [ref=e484]: OP
+                  - generic [ref=e486]:
+                    - paragraph [ref=e487]: "Utilization : 0.0%"
+                    - table [ref=e489]:
+                      - rowgroup [ref=e490]:
+                        - row [ref=e999]:
+                          - columnheader [ref=e1000]: Lane
+                          - columnheader [ref=e1001]: UPH (Pcs)
+                          - columnheader [ref=e1002]: CT (s)
+                      - rowgroup [ref=e495]:
+                        - row [ref=e1003]:
+                          - cell [ref=e1004]: "#1"
+                          - cell [ref=e1005]: "-"
+                          - cell [ref=e1006]: "-"
+                - generic [ref=e500]:
+                  - generic [ref=e501]:
+                    - heading [level=6] [ref=e1007]:
+                      - link [ref=e1008] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/72d4b041-c20d-47b7-8505-5a1114ab43df
+                        - text: 4 - AOI不良分流機
+                    - generic [ref=e505]: OP
+                  - generic [ref=e507]:
+                    - paragraph [ref=e508]: "Utilization : 14.6%"
+                    - table [ref=e510]:
+                      - rowgroup [ref=e511]:
+                        - row [ref=e1009]:
+                          - columnheader [ref=e1010]: Lane
+                          - columnheader [ref=e1011]: UPH (Pcs)
+                          - columnheader [ref=e1012]: CT (s)
+                      - rowgroup [ref=e516]:
+                        - row [ref=e1013]:
+                          - cell [ref=e1014]: "#1"
+                          - cell [ref=e1015]: "59"
+                          - cell [ref=e1016]: "3.37"
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - heading [level=6] [ref=e1017]:
+                      - link [ref=e1018] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fa694e9b-856c-4c53-87a6-1569e6c4358c
+                        - text: 5 - 自動LINK
+                    - generic [ref=e526]: OP
+                  - generic [ref=e528]:
+                    - paragraph [ref=e529]: "Utilization : 28.4%"
+                    - table [ref=e531]:
+                      - rowgroup [ref=e532]:
+                        - row [ref=e1019]:
+                          - columnheader [ref=e1020]: Lane
+                          - columnheader [ref=e1021]: UPH (Pcs)
+                          - columnheader [ref=e1022]: CT (s)
+                      - rowgroup [ref=e537]:
+                        - row [ref=e1023]:
+                          - cell [ref=e1024]: "#1"
+                          - cell [ref=e1025]: "149"
+                          - cell [ref=e1026]: "4.89"
+                - generic [ref=e542]:
+                  - generic [ref=e543]:
+                    - heading [level=6] [ref=e1027]:
+                      - link [ref=e1028] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/49337f00-9dd4-4958-acd8-3cb33c99cb2a
+                        - text: 6 - 靜態測試機
+                    - generic [ref=e547]: CTQ
+                  - generic [ref=e549]:
+                    - paragraph [ref=e550]: "Utilization : 54.0%"
+                    - table [ref=e552]:
+                      - rowgroup [ref=e553]:
+                        - row [ref=e1029]:
+                          - columnheader [ref=e1030]: Lane
+                          - columnheader [ref=e1031]: UPH (Pcs)
+                          - columnheader [ref=e1032]: CT (s)
+                      - rowgroup [ref=e558]:
+                        - row [ref=e1033]:
+                          - cell [ref=e1034]: "#1"
+                          - cell [ref=e1035]: "54"
+                          - cell [ref=e1036]: "10.19"
+                - generic [ref=e563]:
+                  - generic [ref=e564]:
+                    - heading [level=6] [ref=e1037]:
+                      - link [ref=e1038] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/6283057a-f85d-4960-8fbf-4de4b277c223
+                        - text: 7 - 靜態不良分流機
+                    - generic [ref=e568]: OP
+                  - generic [ref=e570]:
+                    - paragraph [ref=e571]: "Utilization : 49.8%"
+                    - table [ref=e573]:
+                      - rowgroup [ref=e574]:
+                        - row [ref=e1039]:
+                          - columnheader [ref=e1040]: Lane
+                          - columnheader [ref=e1041]: UPH (Pcs)
+                          - columnheader [ref=e1042]: CT (s)
+                      - rowgroup [ref=e579]:
+                        - row [ref=e1043]:
+                          - cell [ref=e1044]: "#1"
+                          - cell [ref=e1045]: "67"
+                          - cell [ref=e1046]: "8.60"
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - heading [level=6] [ref=e1047]:
+                      - link [ref=e1048] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/e3bad0e0-5d51-4de5-9084-e938ce00cc1a
+                        - text: 8 - 自動FUT1
+                    - generic [ref=e589]: CTQ
+                  - generic [ref=e591]:
+                    - paragraph [ref=e592]: "Utilization : 59.8%"
+                    - table [ref=e594]:
+                      - rowgroup [ref=e595]:
+                        - row [ref=e1049]:
+                          - columnheader [ref=e1050]: Lane
+                          - columnheader [ref=e1051]: UPH (Pcs)
+                          - columnheader [ref=e1052]: CT (s)
+                      - rowgroup [ref=e600]:
+                        - row [ref=e1053]:
+                          - cell [ref=e1054]: "#1"
+                          - cell [ref=e1055]: "19"
+                          - cell [ref=e1056]: "34.00"
+                - generic [ref=e605]:
+                  - generic [ref=e606]:
+                    - heading [level=6] [ref=e1057]:
+                      - link [ref=e1058] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ad16c387-9fbb-48b5-a7f7-165fb5a2935c
+                        - text: 9 - 自動FUT2
+                    - generic [ref=e610]: CTQ
+                  - generic [ref=e612]:
+                    - paragraph [ref=e613]: "Utilization : 44.9%"
+                    - table [ref=e615]:
+                      - rowgroup [ref=e616]:
+                        - row [ref=e1059]:
+                          - columnheader [ref=e1060]: Lane
+                          - columnheader [ref=e1061]: UPH (Pcs)
+                          - columnheader [ref=e1062]: CT (s)
+                      - rowgroup [ref=e621]:
+                        - row [ref=e1063]:
+                          - cell [ref=e1064]: "#1"
+                          - cell [ref=e1065]: "97"
+                          - cell [ref=e1066]: "-"
+                - generic [ref=e626]:
+                  - generic [ref=e627]:
+                    - heading [level=6] [ref=e1067]:
+                      - link [ref=e1068] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/3782b107-c6dd-4475-8488-12fe099a1e67
+                        - text: 10 - ICT後翻板移栽1
+                    - generic [ref=e631]: OP
+                  - generic [ref=e633]:
+                    - paragraph [ref=e634]: "Utilization : 98.3%"
+                    - table [ref=e636]:
+                      - rowgroup [ref=e637]:
+                        - row [ref=e1069]:
+                          - columnheader [ref=e1070]: Lane
+                          - columnheader [ref=e1071]: UPH (Pcs)
+                          - columnheader [ref=e1072]: CT (s)
+                      - rowgroup [ref=e642]:
+                        - row [ref=e1073]:
+                          - cell [ref=e1074]: "#1"
+                          - cell [ref=e1075]: "160"
+                          - cell [ref=e1076]: "8.07"
+                - generic [ref=e647]:
+                  - generic [ref=e648]:
+                    - heading [level=6] [ref=e1077]:
+                      - link [ref=e1078] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/218d386d-d1f7-43e3-8d2f-4a9e5fd90c85
+                        - text: 12 - ICT後不良分流機-2
+                    - generic [ref=e652]: OP
+                  - generic [ref=e654]:
+                    - paragraph [ref=e655]: "Utilization : 63.2%"
+                    - table [ref=e657]:
+                      - rowgroup [ref=e658]:
+                        - row [ref=e1079]:
+                          - columnheader [ref=e1080]: Lane
+                          - columnheader [ref=e1081]: UPH (Pcs)
+                          - columnheader [ref=e1082]: CT (s)
+                      - rowgroup [ref=e663]:
+                        - row [ref=e1083]:
+                          - cell [ref=e1084]: "#1"
+                          - cell [ref=e1085]: "86"
+                          - cell [ref=e1086]: "4.19"
+                - generic [ref=e668]:
+                  - generic [ref=e669]:
+                    - heading [level=6] [ref=e1087]:
+                      - link [ref=e1088] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/b425b823-a567-4288-9837-8d62a103692d
+                        - text: 14 - 噴膠機2-1
+                    - generic [ref=e673]: CTP
+                  - generic [ref=e675]:
+                    - paragraph [ref=e676]: "Utilization : 60.5%"
+                    - paragraph [ref=e677]:
+                      - text: "TMM Quality Analysis :"
+                      - link [ref=e1089] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/TMM?lineName=D-HI-L01A&machineId=E022356002_1
+                        - text: Normal
+                    - table [ref=e680]:
+                      - rowgroup [ref=e681]:
+                        - row [ref=e1090]:
+                          - columnheader [ref=e1091]: Lane
+                          - columnheader [ref=e1092]: UPH (Pcs)
+                          - columnheader [ref=e1093]: CT (s)
+                      - rowgroup [ref=e686]:
+                        - row [ref=e1094]:
+                          - cell [ref=e1095]: "#1"
+                          - cell [ref=e1096]: "45"
+                          - cell [ref=e1097]: "31.68"
+                - generic [ref=e691]:
+                  - generic [ref=e692]:
+                    - heading [level=6] [ref=e1098]:
+                      - link [ref=e1099] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/b4f7abc4-4517-4c8c-8342-b6563dcbcbdf
+                        - text: 15 - ICT後翻板移栽2
+                    - generic [ref=e696]: OP
+                  - generic [ref=e698]:
+                    - paragraph [ref=e699]: "Utilization : 97.3%"
+                    - table [ref=e701]:
+                      - rowgroup [ref=e702]:
+                        - row [ref=e1100]:
+                          - columnheader [ref=e1101]: Lane
+                          - columnheader [ref=e1102]: UPH (Pcs)
+                          - columnheader [ref=e1103]: CT (s)
+                      - rowgroup [ref=e707]:
+                        - row [ref=e1104]:
+                          - cell [ref=e1105]: "#1"
+                          - cell [ref=e1106]: "162"
+                          - cell [ref=e1107]: "8.83"
+                - generic [ref=e712]:
+                  - generic [ref=e713]:
+                    - heading [level=6] [ref=e1108]:
+                      - link [ref=e1109] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/9164352f-db48-4936-b2ab-8c3d0e542503
+                        - text: 17 - 噴膠機2-2
+                    - generic [ref=e717]: CTP
+                  - generic [ref=e719]:
+                    - paragraph [ref=e720]: "Utilization : 39.0%"
+                    - table [ref=e722]:
+                      - rowgroup [ref=e723]:
+                        - row [ref=e1110]:
+                          - columnheader [ref=e1111]: Lane
+                          - columnheader [ref=e1112]: UPH (Pcs)
+                          - columnheader [ref=e1113]: CT (s)
+                      - rowgroup [ref=e728]:
+                        - row [ref=e1114]:
+                          - cell [ref=e1115]: "#1"
+                          - cell [ref=e1116]: "44"
+                          - cell [ref=e1117]: "4.57"
+                - generic [ref=e733]:
+                  - generic [ref=e734]:
+                    - heading [level=6] [ref=e1118]:
+                      - link [ref=e1119] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/1a3327b6-e297-44d3-9bcd-f1ffd27aa093
+                        - text: 19 - UV炉-2
+                    - generic [ref=e738]: CTP
+                  - generic [ref=e740]:
+                    - paragraph [ref=e741]: "Utilization : 47.5%"
+                    - paragraph [ref=e742]:
+                      - text: "TMM Quality Analysis :"
+                      - link [ref=e1120] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/TMM?lineName=D-HI-L01A&machineId=E022111201_1
+                        - text: Normal
+                    - table [ref=e745]:
+                      - rowgroup [ref=e746]:
+                        - row [ref=e1121]:
+                          - columnheader [ref=e1122]: Lane
+                          - columnheader [ref=e1123]: UPH (Pcs)
+                          - columnheader [ref=e1124]: CT (s)
+                      - rowgroup [ref=e751]:
+                        - row [ref=e1125]:
+                          - cell [ref=e1126]: "#1"
+                          - cell [ref=e1127]: "74"
+                          - cell [ref=e1128]: "0.75"
+                - generic [ref=e756]:
+                  - generic [ref=e757]:
+                    - heading [level=6] [ref=e1129]:
+                      - link [ref=e1130] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/a8f37bcd-72a0-4dad-bb9a-d3906d6e561d
+                        - text: 21 - 分板機-2
+                    - generic [ref=e761]: CTP
+                  - generic [ref=e763]:
+                    - paragraph [ref=e764]: "Utilization : 53.6%"
+                    - paragraph [ref=e765]:
+                      - text: "TMM Quality Analysis :"
+                      - link [ref=e1131] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/TMM?lineName=D-HI-L01A&machineId=E022359701_1
+                        - text: Normal
+                    - table [ref=e768]:
+                      - rowgroup [ref=e769]:
+                        - row [ref=e1132]:
+                          - columnheader [ref=e1133]: Lane
+                          - columnheader [ref=e1134]: UPH (Pcs)
+                          - columnheader [ref=e1135]: CT (s)
+                      - rowgroup [ref=e774]:
+                        - row [ref=e1136]:
+                          - cell [ref=e1137]: "#1"
+                          - cell [ref=e1138]: "46"
+                          - cell [ref=e1139]: "23.71"
+          - generic [ref=e784]:
+            - img [ref=e785]
+            - generic [ref=e790]: Line Realtime ATT
+            - generic [ref=e791]:
+              - button [ref=e792] [cursor=pointer]:
+                - img [ref=e793]
+              - button [ref=e796] [cursor=pointer]:
+                - img [ref=e797]
+          - generic [ref=e808]:
+            - img [ref=e809]
+            - generic [ref=e814]: Line Realtime CT / Line Balance
+            - generic [ref=e815]:
+              - button [ref=e816] [cursor=pointer]:
+                - img [ref=e817]
+              - button [ref=e820] [cursor=pointer]:
+                - img [ref=e821]
+          - generic [ref=e832]:
+            - img [ref=e833]
+            - generic [ref=e838]: Line Hourly Standard Work Achieved Rate
+            - generic [ref=e839]:
+              - button [ref=e840] [cursor=pointer]:
+                - img [ref=e841]
+              - button [ref=e844] [cursor=pointer]:
+                - img [ref=e845]
+          - generic [ref=e856]:
+            - img [ref=e857]
+            - generic [ref=e862]: Line Hourly Utilization
+            - generic [ref=e863]:
+              - button [ref=e864] [cursor=pointer]:
+                - img [ref=e865]
+              - button [ref=e868] [cursor=pointer]:
+                - img [ref=e869]
+          - generic [ref=e880]:
+            - img [ref=e881]
+            - generic [ref=e886]: Line Hourly UPH
+            - generic [ref=e887]:
+              - button [ref=e888] [cursor=pointer]:
+                - img [ref=e889]
+              - button [ref=e892] [cursor=pointer]:
+                - img [ref=e893]
+          - generic [ref=e904]:
+            - img [ref=e905]
+            - generic [ref=e910]: Line Hourly FPYR
+            - generic [ref=e911]:
+              - button [ref=e912] [cursor=pointer]:
+                - img [ref=e913]
+              - button [ref=e916] [cursor=pointer]:
+                - img [ref=e917]
+          - generic [ref=e928]:
+            - img [ref=e929]
+            - generic [ref=e934]: Line Realtime Bottleneck Station Analysis
+            - generic [ref=e935]:
+              - button [ref=e936] [cursor=pointer]:
+                - img [ref=e937]
+              - button [ref=e940] [cursor=pointer]:
+                - img [ref=e941]
+          - generic [ref=e952]:
+            - img [ref=e953]
+            - generic [ref=e958]: Line Realtime Station State
+            - generic [ref=e959]:
+              - button [ref=e960] [cursor=pointer]:
+                - img [ref=e961]
+              - button [ref=e964] [cursor=pointer]:
+                - img [ref=e965]
+      - dialog "Line Realtime Production Information" [ref=e1150]:
+        - heading "Line Realtime Production Information" [level=2] [ref=e1151]:
+          - text: Line Realtime Production Information
+          - button [ref=e1152] [cursor=pointer]:
+            - img [ref=e1153]
+        - separator [ref=e1155]
+        - generic [ref=e1157]:
+          - generic [ref=e1159]:
+            - paragraph [ref=e1160]: Current line overview info
+            - paragraph [ref=e1161]:
+              - img [ref=e1162]
+              - generic [ref=e1164]: every 30 second(s)
+          - separator [ref=e1165]
+          - generic [ref=e1167]:
+            - generic [ref=e1169]:
+              - paragraph [ref=e1170]: Work Order
+              - paragraph [ref=e1171]: MES order number.
+              - paragraph [ref=e1172]: "Data Source: MES API Service"
+            - generic [ref=e1174]:
+              - paragraph [ref=e1175]: Model Name
+              - paragraph [ref=e1176]: MES model number.
+              - paragraph [ref=e1177]: "Data Source: MES API Service"
+            - generic [ref=e1179]:
+              - paragraph [ref=e1180]: Automation Level
+              - paragraph [ref=e1181]: MES Automation Level Value
+              - paragraph [ref=e1182]:
+                - text: "Authority: P7 Global Performance Improvement Center (PIC)"
+                - text: "Data Source: MES API Service"
+            - generic [ref=e1184]:
+              - paragraph [ref=e1185]: Machine Connectivity Level
+              - paragraph [ref=e1186]: "Formula : Total Equipment in SIE ÷ Total Equipment Configured in MES"
+              - paragraph [ref=e1187]:
+                - text: "Authority: T1 Whole Line Design Center"
+                - text: "Data Source: MES API Service / DIA EAP"
+            - generic [ref=e1189]:
+              - paragraph [ref=e1190]: Machine Connectivity Level
+              - paragraph [ref=e1191]: 1 = Equipment Connected to SIE 2 = EdgePQM Implemented 3 = EdgePQM & EdgeTMM Implemented 4 = Base with Use Case (Holmes) Implemented
+              - paragraph [ref=e1192]:
+                - text: "Authority: T2 Solution Implementation Dept."
+                - text: "Data Source: DIA EAP"
+            - generic [ref=e1194]:
+              - paragraph [ref=e1195]: Number of Use Cases
+              - paragraph [ref=e1196]:
+                - text: "Authority: T3 Use Case Technology Dept."
+                - text: "Data Source: T3 API Service"

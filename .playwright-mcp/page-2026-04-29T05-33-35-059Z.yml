@@ -1,0 +1,281 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Kris Lu" [ref=e4] [cursor=pointer]:
+      - /url: index.html
+      - text: Kris Lu
+    - generic [ref=e6]:
+      - tablist [ref=e7]:
+        - button "中" [ref=e8] [cursor=pointer]
+        - button "EN" [ref=e9] [cursor=pointer]
+      - button "theme" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+  - generic [ref=e14]:
+    - link "← 返回首頁" [ref=e15] [cursor=pointer]:
+      - /url: index.html
+    - generic [ref=e16]:
+      - generic [ref=e17]: UX Design
+      - generic [ref=e18]: Product Owner
+      - generic [ref=e19]: Dashboard
+      - generic [ref=e20]: IIoT
+    - heading "Edge PQM v2" [level=1] [ref=e21]
+    - paragraph [ref=e22]: 把製造現場的即時數據，翻譯成讓 Line Manager 真正能用的生產監控平台
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: 角色
+        - generic [ref=e26]: UX Designer · Product Owner
+      - generic [ref=e27]:
+        - generic [ref=e28]: 團隊
+        - generic [ref=e29]: Designer × 1 · Engineer × 6 · PM × 1
+      - generic [ref=e30]:
+        - generic [ref=e31]: 時程
+        - generic [ref=e32]: 2022 — 2024
+      - generic [ref=e33]:
+        - generic [ref=e34]: 工具
+        - generic [ref=e35]: Figma · Jira · Miro
+  - generic [ref=e37]:
+    - img "Edge PQM 產線生產看板" [ref=e38]
+    - paragraph [ref=e39]: Edge PQM v2 · 產線生產看板（Light 模式）
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]: 01 / 背景與挑戰
+      - heading "背景與挑戰" [level=2] [ref=e45]
+      - paragraph [ref=e46]:
+        - text: Edge PQM（Production Quality Management）是台達電子智慧製造堆疊的核心應用之一，目標是讓工廠 Line Manager 在
+        - emphasis [ref=e47]: 同一個畫面上即時掌握產線狀態
+        - text: ——不用在三個系統之間切換，不用等班組長回報，不用憑感覺判斷哪裡出了問題。
+      - paragraph [ref=e48]:
+        - text: 在這個專案裡，我的職責橫跨兩個階段：初期以
+        - emphasis [ref=e49]: UX Designer
+        - text: 的身份重構整個資訊架構與設計系統；後期轉為
+        - emphasis [ref=e50]: Product Owner
+        - text: ，負責與多個內部組織對齊指標定義、釐清產品邊界、推動跨廠區導入。
+      - generic [ref=e51]:
+        - generic [ref=e52]: 核心挑戰
+        - paragraph [ref=e53]: 資料來自 CFX 設備事件、MES 工單系統、EAP 設備資訊、Edge TMM 品質模組——四個資料源、多個組織定義的指標，要統一進一個可配置的看板，還要讓站在螢幕前 3 秒就能讀懂。
+    - generic [ref=e54]:
+      - img "產線生產看板全覽" [ref=e55]
+      - paragraph [ref=e56]: 產線生產看板 — 15 個 widget 涵蓋稼動率、UPH、ATT、直通率與設備狀態
+  - generic [ref=e58]:
+    - generic [ref=e59]: 02 / 研究與洞察
+    - heading "研究與洞察" [level=2] [ref=e60]
+    - paragraph [ref=e61]: 我定期走訪產線，與 Line Manager、製程工程師、設備技術員對話。現場研究帶出三個關鍵洞察：
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]: "01"
+        - heading "角色分工，螢幕共用" [level=4] [ref=e65]
+        - paragraph [ref=e66]: Line Manager 看全線稼動率與直通率；設備工程師看某台設備的 ATT / CT；品質工程師只在乎 FPY。同一個畫面必須服務三種不同視角。
+      - generic [ref=e67]:
+        - generic [ref=e68]: "02"
+        - heading "指標定義才是痛點" [level=4] [ref=e69]
+        - paragraph [ref=e70]: 「稼動率」這個詞在不同組織有不同算法。數字出現在螢幕上，沒有人知道它怎麼算出來的，結果大家不信任、不使用。
+      - generic [ref=e71]:
+        - generic [ref=e72]: "03"
+        - heading "3 秒內讀完，或永遠不讀" [level=4] [ref=e73]
+        - paragraph [ref=e74]: Line Manager 在排班確認時站在大螢幕前，視窗停留不超過 10 秒。資訊必須夠大、夠直覺，否則他們會繼續用白板和對講機。
+  - generic [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]: 03 / 設計決策
+      - heading "設計決策" [level=2] [ref=e80]
+      - paragraph [ref=e81]: 基於現場研究，我做了四個關鍵的設計決策：
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: 決策 01
+          - generic [ref=e85]:
+            - heading "三層固定看板 + 自訂看板" [level=4] [ref=e86]
+            - paragraph [ref=e87]: 依角色需求設計三個固定看板（產線生產看板 15 個 widget、指標看板 7 個 widget、設備狀態看板每台 10 個 widget），並提供自訂看板讓進階用戶自行組合。固定看板確保 Day 1 開箱即用；自訂看板確保長尾需求有出口。
+        - generic [ref=e88]:
+          - generic [ref=e89]: 決策 02
+          - generic [ref=e90]:
+            - heading "i 彈窗 — 讓每個數字可以被驗証" [level=4] [ref=e91]
+            - paragraph [ref=e92]: 每個 widget 附完整的 i 彈窗，記錄指標定義、計算公式、資料來源、更新頻率，由各組織（P7、AIOT、MQA、T1 等）共同審核。這不只是 UI 設計，而是讓多個組織的共識變成可見的產品層。
+        - generic [ref=e93]:
+          - generic [ref=e94]: 決策 03
+          - generic [ref=e95]:
+            - heading "數字優先的視覺語言" [level=4] [ref=e96]
+            - paragraph [ref=e97]: 關鍵指標（UPH、OEE、稼動率）用 36–48px 的大數字呈現，觸發閾值時立即變色（紅色=異常、橙色=警示）。圓環圖顯示設備狀態分布；折線圖顯示 ATT / CT 趨勢。設備狀態更新最快 10 秒一次。
+        - generic [ref=e98]:
+          - generic [ref=e99]: 決策 04
+          - generic [ref=e100]:
+            - heading "全指標 Widget 化 — 自由組合的部件中心" [level=4] [ref=e101]
+            - paragraph [ref=e102]: 所有指標模組都設計為獨立 widget，透過「部件中心」讓用戶從生產分析（P）、品質分析（Q）、設備分析（M）三個類別中自由挑選、拖拉組合成專屬看板。這讓同一套資料基礎設施，能服務從 Line Manager 到製程工程師的不同使用情境，無需重複開發。
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - img "部件中心" [ref=e105]
+        - paragraph [ref=e106]: 部件中心 — 生產分析（P）、品質分析（Q）、設備分析（M）三類 widget 可自由加入自訂看板
+      - generic [ref=e107]:
+        - img "Widget 設定 Drawer" [ref=e108]
+        - paragraph [ref=e109]: 每個 widget 均可透過 Drawer 自訂顯示欄位
+  - generic [ref=e111]:
+    - generic [ref=e112]: 04 / 視覺與設計系統
+    - heading "視覺與設計系統" [level=2] [ref=e113]
+    - paragraph [ref=e114]:
+      - text: 工廠環境的螢幕多樣——控制室的大型顯示器、工程師桌面的 24 吋螢幕、現場的 HMI 觸控面板，甚至深夜輪班時燈光昏暗的車間。我設計了
+      - emphasis [ref=e115]: 深色 / 淺色雙主題
+      - text: ，並把設計 token 系統化，讓工程團隊能在不同環境下一鍵切換。
+    - paragraph [ref=e116]:
+      - text: 同時支援
+      - emphasis [ref=e117]: 四語 i18n
+      - text: （繁體中文 / 簡體中文 / English / ไทย），因為台達的工廠遍布亞洲，操作人員的母語各不相同。
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - strong [ref=e120]: 互動示範
+        - generic [ref=e121]: —
+        - generic [ref=e122]: 點擊 ⓘ 查看指標定義
+        - generic [ref=e123]: ·
+        - generic [ref=e124]: 右上角 🌙 切換深色模式
+        - generic [ref=e125]: ·
+        - generic [ref=e126]: 點「新增部件」開啟部件中心
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - generic [ref=e133]: Line Manager
+          - generic [ref=e134]:
+            - generic [ref=e135]: WJ3
+            - generic [ref=e136]: ›
+            - generic [ref=e137]: CDP
+            - generic [ref=e138]: ›
+            - generic [ref=e139]: C01
+            - generic [ref=e140]: ›
+            - generic [ref=e141]: D-HI-L01A
+          - generic [ref=e142]:
+            - button "🌙" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]: 2.6.0
+            - generic [ref=e145]: KL
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - button "監控" [ref=e148] [cursor=pointer]
+            - button "預覽" [ref=e149] [cursor=pointer]
+          - generic [ref=e150]: Edge PQM · 產線生產看板
+          - button "⊞ 新增部件" [ref=e151] [cursor=pointer]
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]: 產線即時生產資訊
+                - generic [ref=e157]: D-HI-L01A
+                - button "ⓘ" [ref=e158]
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]: 生產工單
+                  - generic [ref=e162]: "36126001897"
+                - generic [ref=e163]:
+                  - generic [ref=e164]: 生產機種
+                  - generic [ref=e165]: "5503795301"
+                - generic [ref=e166]:
+                  - generic [ref=e167]: 自動化程度
+                  - generic [ref=e168]: 92.3%
+                - generic [ref=e169]:
+                  - generic [ref=e170]: 機聯網程度
+                  - generic [ref=e171]: 93.8%
+                - generic [ref=e172]:
+                  - generic [ref=e173]: Use Case 數
+                  - generic [ref=e174]: "9"
+            - generic [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: 產線即時設備狀態統計
+                - generic [ref=e178]: D-HI-L01A
+                - button "ⓘ" [ref=e179]
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - img [ref=e182]:
+                    - generic [ref=e185]: "9"
+                  - generic [ref=e186]: 工作中
+                - generic [ref=e187]:
+                  - img [ref=e188]:
+                    - generic [ref=e191]: "4"
+                  - generic [ref=e192]: 待機
+                - generic [ref=e193]:
+                  - img [ref=e194]:
+                    - generic [ref=e196]: "0"
+                  - generic [ref=e197]: 異常
+                - generic [ref=e198]:
+                  - img [ref=e199]:
+                    - generic [ref=e202]: "2"
+                  - generic [ref=e203]: 離線
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - generic [ref=e207]: 產線 24H 設備效能
+                - generic [ref=e208]: D-HI-L01A
+                - button "ⓘ" [ref=e209] [cursor=pointer]
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - generic [ref=e212]: 產線稼動率
+                  - generic [ref=e213]: 53.3%
+                - generic [ref=e214]:
+                  - generic [ref=e215]: 產線 OEE
+                  - generic [ref=e216]: 53.1%
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - generic [ref=e219]: 產線即時直通率
+                - generic [ref=e220]: D-HI-L01A
+                - button "ⓘ" [ref=e221] [cursor=pointer]
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]: CTQ 直通率
+                  - generic [ref=e225]: 100.0%
+                - generic [ref=e226]:
+                  - generic [ref=e227]: CTP 直通率
+                  - generic [ref=e228]: 99.7%
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - generic [ref=e231]: 生產效率與節拍
+                - generic [ref=e232]: D-HI-L01A
+                - button "ⓘ" [ref=e233] [cursor=pointer]
+              - generic [ref=e234]:
+                - generic [ref=e235]:
+                  - generic [ref=e236]: UPH
+                  - generic [ref=e237]: 38件/時
+                - generic [ref=e238]:
+                  - generic [ref=e239]: ATT
+                  - generic [ref=e240]: 1分 11s
+            - generic [ref=e241]:
+              - generic [ref=e242]:
+                - generic [ref=e243]: 標工達成率與瓶頸站
+                - generic [ref=e244]: D-HI-L01A
+                - button "ⓘ" [ref=e245] [cursor=pointer]
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 標工達成率
+                  - generic [ref=e249]: 45.8%
+                - generic [ref=e250]:
+                  - generic [ref=e251]: 瓶頸站 CT
+                  - generic [ref=e252]: 40.94s
+    - generic [ref=e253]:
+      - generic [ref=e254]:
+        - img "Light 主題" [ref=e255]
+        - paragraph [ref=e256]: Light 主題 — 適合辦公室控制室
+      - generic [ref=e257]:
+        - img "Dark 主題" [ref=e258]
+        - paragraph [ref=e259]: Dark 主題 — 設備狀態看板，適合輪班深夜環境
+    - generic [ref=e260]:
+      - img "設備狀態看板" [ref=e261]
+      - paragraph [ref=e262]: 設備狀態看板 — 每台設備 10 個 widget，包含 ATT / CT 趨勢、稼動率、停機歷史與 Error Code 排行
+  - generic [ref=e264]:
+    - generic [ref=e265]: 05 / 成果與反思
+    - heading "成果與反思" [level=2] [ref=e266]
+    - paragraph [ref=e267]: Edge PQM v2 完成跨國規模化導入，覆蓋台灣、中國、泰國三地廠區，成為台達 Line Manager 家族應用的核心子系統。
+    - generic [ref=e268]:
+      - generic [ref=e269]:
+        - generic [ref=e270]: 500+
+        - generic [ref=e271]: 條產線成功導入 台灣・中國・泰國
+      - generic [ref=e272]:
+        - generic [ref=e273]: "3"
+        - generic [ref=e274]: 製造領域 SMT・電子組裝・注塑
+      - generic [ref=e275]:
+        - generic [ref=e276]: 10s
+        - generic [ref=e277]: 最快指標更新頻率
+      - generic [ref=e278]:
+        - generic [ref=e279]: "4"
+        - generic [ref=e280]: 語言 i18n 繁・簡・英・泰
+    - generic [ref=e281]:
+      - generic [ref=e282]: 反思
+      - paragraph [ref=e283]: 這個專案最難的不是 UI，而是讓九個不同組織的指標定義在同一個螢幕上共存。i 彈窗的設計看起來只是一個小功能，但背後代表的是跨組織治理的可視化——讓 Line Manager 對數字產生信任，才是 UX 真正的工作。
+  - generic [ref=e285]:
+    - link "← 返回作品列表" [ref=e286] [cursor=pointer]:
+      - /url: index.html#works
+    - link "下一個作品 →" [ref=e287] [cursor=pointer]:
+      - /url: work-2.html
+  - contentinfo [ref=e288]:
+    - generic [ref=e289]: © 2026 Kris Lu. 用心做設計。

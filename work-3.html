@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case 01 — Kris Lu</title>
+  <link rel="stylesheet" href="styles/heroui-tokens.css" />
+  <link rel="stylesheet" href="styles/heroui-kit.css" />
+  <link rel="stylesheet" href="styles/portfolio.css" />
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="content.js"></script>
+  <script type="text/babel" src="components/HeroUI.jsx"></script>
+  <script type="text/babel" src="components/Sections.jsx"></script>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    // Read ?work=1 from URL or filename
+    function getWorkIndex() {
+      const url = new URL(window.location.href);
+      const fromQuery = url.searchParams.get("work");
+      if (fromQuery) return parseInt(fromQuery, 10) - 1;
+      const m = url.pathname.match(/work-(\d+)\.html/);
+      if (m) return parseInt(m[1], 10) - 1;
+      return 0;
+    }
+
+    function App() {
+      const [lang, setLang] = useState(() => localStorage.getItem("kl-lang") || "zh");
+      const [theme, setTheme] = useState(() => localStorage.getItem("kl-theme") || "light");
+      const idx = getWorkIndex();
+      const t = window.PORTFOLIO_CONTENT[lang];
+      const work = t.works.items[idx] || t.works.items[0];
+
+      useEffect(() => {
+        document.documentElement.classList.toggle("dark", theme === "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("kl-theme", theme);
+      }, [theme]);
+
+      useEffect(() => {
+        document.documentElement.lang = lang === "zh" ? "zh-TW" : "en";
+        localStorage.setItem("kl-lang", lang);
+      }, [lang]);
+
+      const meta = lang === "zh"
+        ? [
+            { k: "角色", v: "UX Designer · PO" },
+            { k: "團隊", v: "Designer × 1, Engineer × 4, PM × 1" },
+            { k: "時程", v: "進行中" },
+            { k: "工具", v: "Figma · Jira · Miro" }
+          ]
+        : [
+            { k: "Role", v: "UX Designer · PO" },
+            { k: "Team", v: "1 Designer · 4 Engineers · 1 PM" },
+            { k: "Timeline", v: "Ongoing" },
+            { k: "Tools", v: "Figma · Jira · Miro" }
+          ];
+
+      return (
+        <>
+          <Nav lang={lang} setLang={setLang} theme={theme} setTheme={setTheme} t={t} currentPage="detail" />
+
+          <section className="detail-hero">
+            <div className="container">
+              <a href="index.html" className="back-link">{t.detail.back}</a>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 16 }}>
+                <span className="tag tag-accent num">{work.year}</span>
+                {work.tags.map((tg, i) => <span className="tag" key={i}>{tg}</span>)}
+              </div>
+              <h1>{work.title}</h1>
+              <p className="lead-lg" style={{ maxWidth: 720, fontSize: 20 }}>{work.desc}</p>
+
+              <div className="detail-meta">
+                {meta.map((m, i) => (
+                  <div className="hero-meta-item" key={i}>
+                    <span className="k" style={{ fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--muted-foreground)", fontWeight: 600 }}>{m.k}</span>
+                    <span className="v" style={{ fontSize: 14, fontWeight: 500, marginTop: 4 }}>{m.v}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section className="section-tight">
+            <div className="container">
+              <div className="detail-cover">
+                <WorkPlaceholderArt index={idx} />
+              </div>
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="container" style={{ maxWidth: 760 }}>
+              <div style={{
+                background: "var(--tint)",
+                border: "1px solid var(--border)",
+                borderRadius: "var(--radius-2xl)",
+                padding: "48px 32px",
+                textAlign: "center"
+              }}>
+                <div style={{
+                  width: 56, height: 56, borderRadius: "50%",
+                  background: "var(--accent-soft)", color: "var(--accent)",
+                  display: "inline-flex", alignItems: "center", justifyContent: "center",
+                  marginBottom: 20, fontSize: 24
+                }}>✦</div>
+                <h2 className="display-sm" style={{ margin: "0 0 12px", fontSize: "clamp(24px, 3vw, 32px)" }}>
+                  {t.detail.coming}
+                </h2>
+                <p style={{ color: "var(--muted-foreground)", fontSize: 16, margin: "0 auto", maxWidth: 480, lineHeight: 1.6 }}>
+                  {lang === "zh"
+                    ? "這個案例的研究過程、設計決策與成效正在整理中。完整內容會在這裡呈現包含挑戰、研究、流程、設計、成效。"
+                    : "Research, decisions and outcomes for this case are being written up. The full story — challenge, research, process, design, impact — will live here."}
+                </p>
+                <a href="index.html" className="button button--primary" style={{ marginTop: 24 }}>
+                  {lang === "zh" ? "返回作品列表" : "Back to all works"}
+                  <PIcon d={ICONS.arrow} size={16} />
+                </a>
+              </div>
+
+              {/* Outline of typical case-study sections (placeholder skeleton) */}
+              <div style={{ marginTop: 80 }}>
+                <span className="section-label">
+                  {lang === "zh" ? "案例結構" : "Case Outline"}
+                </span>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: 12, marginTop: 12 }}>
+                  {(lang === "zh"
+                    ? [
+                        ["01", "背景與挑戰", "為什麼要做這件事，使用者面對什麼困境"],
+                        ["02", "研究與洞察", "訪談、資料分析、現場觀察整理"],
+                        ["03", "設計決策", "資訊架構、流程、原型、迭代過程"],
+                        ["04", "視覺與設計系統", "元件、樣式、導覽、語系"],
+                        ["05", "成果與反思", "量化指標、業務影響、學到的事"]
+                      ]
+                    : [
+                        ["01", "Context & Challenge", "Why this work matters, the pains we set out to solve"],
+                        ["02", "Research & Insight", "Interviews, data, on-site observations"],
+                        ["03", "Design Decisions", "IA, flows, prototyping, iteration"],
+                        ["04", "Visual & System", "Components, styles, navigation, i18n"],
+                        ["05", "Outcome & Reflection", "Metrics, business impact, lessons"]
+                      ]
+                  ).map(([n, title, desc], i) => (
+                    <div key={i} style={{
+                      display: "grid",
+                      gridTemplateColumns: "60px 1fr",
+                      gap: 24,
+                      padding: "20px 0",
+                      borderTop: "1px solid var(--border)",
+                      alignItems: "start"
+                    }}>
+                      <span className="num" style={{ fontWeight: 600, color: "var(--muted-foreground)", fontSize: 13, letterSpacing: "0.06em" }}>{n}</span>
+                      <div>
+                        <h4 style={{ margin: "0 0 4px", fontSize: 18, fontWeight: 600, letterSpacing: "-0.01em" }}>{title}</h4>
+                        <p style={{ margin: 0, color: "var(--muted-foreground)", fontSize: 14, lineHeight: 1.6 }}>{desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Next/Prev navigation */}
+          <section style={{ borderTop: "1px solid var(--border)", padding: "48px 0" }}>
+            <div className="container" style={{ display: "flex", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
+              <a href={`work-${((idx + 2) % 3) + 1 - 1 || 3}.html`} className="button button--outline">
+                {lang === "zh" ? "← 上一個" : "← Previous"}
+              </a>
+              <a href={`work-${(idx + 1) % 3 + 1}.html`} className="button button--outline">
+                {lang === "zh" ? "下一個 →" : "Next →"}
+              </a>
+            </div>
+          </section>
+
+          <Footer t={t} />
+        </>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+  </script>
+</body>
+</html>

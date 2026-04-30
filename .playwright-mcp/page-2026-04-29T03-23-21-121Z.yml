@@ -1,0 +1,385 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - link "app icon" [ref=e9] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/
+        - img "app icon" [ref=e10]
+      - link "Line Manager" [ref=e11] [cursor=pointer]:
+        - /url: /line/indexPage
+      - generic [ref=e13]:
+        - text: WJ3
+        - img [ref=e14]
+        - text: CDP
+        - img [ref=e16]
+        - generic [ref=e18] [cursor=pointer]:
+          - text: C01
+          - img [ref=e19]
+          - text: D-HI-L01A
+      - button [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+      - button [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+      - link [ref=e27] [cursor=pointer]:
+        - /url: /edge-pqm/v2/edge-pqm-frontend/settings
+        - button [ref=e28]:
+          - img [ref=e29]
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - generic [ref=e35]: 2.6.0-express-ctp-1
+      - generic [ref=e36] [cursor=pointer]: KL
+  - generic [ref=e39]:
+    - generic [ref=e43]:
+      - tree [ref=e44]:
+        - treeitem "產線生產看板" [ref=e45]:
+          - link "產線生產看板" [ref=e48] [cursor=pointer]:
+            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/92e91651-7069-4463-b166-f6192064b08d
+            - generic [ref=e50]:
+              - img [ref=e51]
+              - text: 產線生產看板
+        - treeitem "指標看板" [active] [selected] [ref=e53]:
+          - link "指標看板" [ref=e56] [cursor=pointer]:
+            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fe67bd90-2041-4fe5-a6aa-ca32efbfda6e
+            - generic [ref=e58]:
+              - img [ref=e59]
+              - text: 指標看板
+        - treeitem "設備狀態看板" [ref=e61]:
+          - generic [ref=e62] [cursor=pointer]:
+            - generic [ref=e64]:
+              - img [ref=e65]
+              - text: 設備狀態看板
+            - img [ref=e68]
+      - separator [ref=e70]
+      - tree [ref=e71]:
+        - treeitem "Edge TMM" [ref=e72]:
+          - generic [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - text: Edge TMM
+            - img [ref=e79]
+      - tree [ref=e81]:
+        - treeitem "Edge Facility" [ref=e82]:
+          - generic [ref=e83] [cursor=pointer]:
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - text: Edge Facility
+            - img [ref=e89]
+      - tree [ref=e91]:
+        - treeitem "Holmes-M" [ref=e92]:
+          - generic [ref=e93] [cursor=pointer]:
+            - generic [ref=e95]:
+              - img [ref=e96]
+              - text: Holmes-M
+            - img [ref=e100]
+      - separator [ref=e102]
+      - tree [ref=e103]:
+        - treeitem "自訂看板" [expanded] [ref=e104]:
+          - generic [ref=e105] [cursor=pointer]:
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - text: 自訂看板
+              - img [ref=e110]
+            - img [ref=e113]
+          - group [ref=e115]:
+            - generic [ref=e117]:
+              - treeitem "12345" [ref=e118]:
+                - link "12345" [ref=e121] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/28244f4f-c9db-406c-b286-8113b1146f65
+                  - generic [ref=e122]: "12345"
+              - treeitem "標工達成率" [ref=e123]:
+                - link "標工達成率" [ref=e126] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/13cd74b6-1eb3-4f50-bd54-a090568c84c7
+                  - generic [ref=e127]: 標工達成率
+              - treeitem "廣義直通率看板" [ref=e128]:
+                - link "廣義直通率看板" [ref=e131] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53fbe5bb-b9b5-4b20-a9bb-06315bf716bb
+                  - generic [ref=e132]: 廣義直通率看板
+              - treeitem "產線設備狀態看板" [ref=e133]:
+                - link "產線設備狀態看板" [ref=e136] [cursor=pointer]:
+                  - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ac0cfbd7-e3d7-4dc9-a16e-67a594f38aae
+                  - generic [ref=e137]: 產線設備狀態看板
+    - generic [ref=e1082]:
+      - generic [ref=e1083]:
+        - generic [ref=e1084]:
+          - generic [ref=e1086]:
+            - group [ref=e1087]:
+              - button "監控" [ref=e1088] [cursor=pointer]
+              - button "預覽" [ref=e1089] [cursor=pointer]
+            - generic [ref=e1090]:
+              - button "全螢幕" [ref=e1091] [cursor=pointer]:
+                - img [ref=e1092]
+              - button "複製看板" [ref=e1094] [cursor=pointer]:
+                - img [ref=e1095]
+          - heading "Edge PQM • 指標看板" [level=6] [ref=e1097]:
+            - heading "Edge PQM • 指標看板" [level=6] [ref=e1100]:
+              - generic [ref=e1101]: Edge PQM • 指標看板
+          - generic [ref=e1103]:
+            - button "文字大小" [ref=e1104] [cursor=pointer]:
+              - img [ref=e1105]
+            - button "更新" [ref=e1107] [cursor=pointer]:
+              - img [ref=e1108]
+        - separator [ref=e1110]
+      - generic [ref=e1114]:
+        - generic:
+          - generic:
+            - generic [ref=e1121]:
+              - generic [ref=e1122]:
+                - img [ref=e1123]
+                - generic "產線即時生產資訊" [ref=e1127]:
+                  - generic [ref=e1128]: 產線即時生產資訊
+                - generic [ref=e1131]: D-HI-L01A
+                - generic [ref=e1132]:
+                  - button [ref=e1133] [cursor=pointer]:
+                    - img [ref=e1134]
+                  - button [ref=e1137] [cursor=pointer]:
+                    - img [ref=e1138]
+              - generic [ref=e1146]:
+                - generic [ref=e1147]:
+                  - paragraph [ref=e1148]: 生產工單
+                  - paragraph [ref=e1149]: "36126001897"
+                - separator [ref=e1150]
+                - generic [ref=e1151]:
+                  - paragraph [ref=e1152]: 生產機種
+                  - paragraph [ref=e1153]: "5503795301"
+                - separator [ref=e1154]
+                - generic [ref=e1155]:
+                  - paragraph [ref=e1156]: 自動化程度
+                  - paragraph [ref=e1157]: 92.3%
+                - separator [ref=e1158]
+                - generic [ref=e1159]:
+                  - paragraph [ref=e1160]: 機聯網程度
+                  - paragraph [ref=e1161]: 93.8%
+            - generic [ref=e1166]:
+              - generic [ref=e1167]:
+                - img [ref=e1168]
+                - generic "產線每小時標工達成率" [ref=e1172]:
+                  - generic [ref=e1173]: 產線每小時標工達成率
+                - generic [ref=e1176]: D-HI-L01A
+                - generic [ref=e1177]:
+                  - button [ref=e1178] [cursor=pointer]:
+                    - img [ref=e1179]
+                  - button [ref=e1182] [cursor=pointer]:
+                    - img [ref=e1183]
+              - generic [ref=e1192]:
+                - generic [ref=e1193]:
+                  - paragraph [ref=e1194]: 08:00 - 09:00
+                  - generic [ref=e1196]:
+                    - generic [ref=e1197]: 81%
+                    - generic [ref=e1198]: 65/80
+                - generic [ref=e1199]:
+                  - paragraph [ref=e1200]: 09:00 - 10:00
+                  - generic [ref=e1202]:
+                    - generic [ref=e1203]: 102%
+                    - generic [ref=e1204]: 82/80
+                - generic [ref=e1205]:
+                  - paragraph [ref=e1206]: 10:00 - 11:00
+                  - generic [ref=e1208]:
+                    - generic [ref=e1209]: 60%
+                    - generic [ref=e1210]: 48/80
+                - generic [ref=e1211]:
+                  - paragraph [ref=e1212]: 11:00 - 12:00
+                  - generic [ref=e1214]:
+                    - generic [ref=e1215]: 26%
+                    - generic [ref=e1216]: 8/31
+                - generic [ref=e1217]:
+                  - paragraph [ref=e1218]: 12:00 - 13:00 休息
+                  - generic [ref=e1220]:
+                    - generic [ref=e1221]: "-"
+                    - generic [ref=e1222]: "-/-"
+                - generic [ref=e1223]:
+                  - paragraph [ref=e1224]: 13:00 - 14:00 休息
+                  - generic [ref=e1226]:
+                    - generic [ref=e1227]: "-"
+                    - generic [ref=e1228]: "-/-"
+                - generic [ref=e1229]:
+                  - paragraph [ref=e1230]: 14:00 - 15:00 休息
+                  - generic [ref=e1232]:
+                    - generic [ref=e1233]: "-"
+                    - generic [ref=e1234]: "-/-"
+                - generic [ref=e1235]:
+                  - paragraph [ref=e1236]: 15:00 - 16:00 休息
+                  - generic [ref=e1238]:
+                    - generic [ref=e1239]: "-"
+                    - generic [ref=e1240]: "-/-"
+                - generic [ref=e1241]:
+                  - paragraph [ref=e1242]: 16:00 - 17:00 休息
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]: "-"
+                    - generic [ref=e1246]: "-/-"
+                - generic [ref=e1247]:
+                  - paragraph [ref=e1248]: 17:00 - 18:00 休息
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]: "-"
+                    - generic [ref=e1252]: "-/-"
+                - generic [ref=e1253]:
+                  - paragraph [ref=e1254]: 18:00 - 19:00 休息
+                  - generic [ref=e1256]:
+                    - generic [ref=e1257]: "-"
+                    - generic [ref=e1258]: "-/-"
+                - generic [ref=e1259]:
+                  - paragraph [ref=e1260]: 19:00 - 20:00 休息
+                  - generic [ref=e1262]:
+                    - generic [ref=e1263]: "-"
+                    - generic [ref=e1264]: "-/-"
+                - generic [ref=e1265]:
+                  - paragraph [ref=e1266]: 20:00 - 21:00 休息
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]: "-"
+                    - generic [ref=e1270]: "-/-"
+                - generic [ref=e1271]:
+                  - paragraph [ref=e1272]: 21:00 - 22:00 休息
+                  - generic [ref=e1274]:
+                    - generic [ref=e1275]: "-"
+                    - generic [ref=e1276]: "-/-"
+                - generic [ref=e1277]:
+                  - paragraph [ref=e1278]: 22:00 - 23:00 休息
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]: "-"
+                    - generic [ref=e1282]: "-/-"
+                - generic [ref=e1283]:
+                  - paragraph [ref=e1284]: 23:00 - 00:00 休息
+                  - generic [ref=e1286]:
+                    - generic [ref=e1287]: "-"
+                    - generic [ref=e1288]: "-/-"
+                - generic [ref=e1289]:
+                  - paragraph [ref=e1290]: 00:00 - 01:00 休息
+                  - generic [ref=e1292]:
+                    - generic [ref=e1293]: "-"
+                    - generic [ref=e1294]: "-/-"
+                - generic [ref=e1295]:
+                  - paragraph [ref=e1296]: 01:00 - 02:00 休息
+                  - generic [ref=e1298]:
+                    - generic [ref=e1299]: "-"
+                    - generic [ref=e1300]: "-/-"
+                - generic [ref=e1301]:
+                  - paragraph [ref=e1302]: 02:00 - 03:00 休息
+                  - generic [ref=e1304]:
+                    - generic [ref=e1305]: "-"
+                    - generic [ref=e1306]: "-/-"
+                - generic [ref=e1307]:
+                  - paragraph [ref=e1308]: 03:00 - 04:00 休息
+                  - generic [ref=e1310]:
+                    - generic [ref=e1311]: "-"
+                    - generic [ref=e1312]: "-/-"
+                - generic [ref=e1313]:
+                  - paragraph [ref=e1314]: 04:00 - 05:00 休息
+                  - generic [ref=e1316]:
+                    - generic [ref=e1317]: "-"
+                    - generic [ref=e1318]: "-/-"
+                - generic [ref=e1319]:
+                  - paragraph [ref=e1320]: 05:00 - 06:00 休息
+                  - generic [ref=e1322]:
+                    - generic [ref=e1323]: "-"
+                    - generic [ref=e1324]: "-/-"
+                - generic [ref=e1325]:
+                  - paragraph [ref=e1326]: 06:00 - 07:00 休息
+                  - generic [ref=e1328]:
+                    - generic [ref=e1329]: "-"
+                    - generic [ref=e1330]: "-/-"
+                - generic [ref=e1331]:
+                  - paragraph [ref=e1332]: 07:00 - 08:00 休息
+                  - generic [ref=e1334]:
+                    - generic [ref=e1335]: "-"
+                    - generic [ref=e1336]: "-/-"
+            - generic [ref=e1341]:
+              - generic [ref=e1342]:
+                - img [ref=e1343]
+                - generic "產線即時工單進度" [ref=e1347]:
+                  - generic [ref=e1348]: 產線即時工單進度
+                - generic [ref=e1351]: D-HI-L01A
+                - generic [ref=e1352]:
+                  - button [ref=e1353] [cursor=pointer]:
+                    - img [ref=e1354]
+                  - button [ref=e1357] [cursor=pointer]:
+                    - img [ref=e1358]
+              - generic [ref=e1366]:
+                - generic [ref=e1367]:
+                  - progressbar [ref=e1368]:
+                    - img [ref=e1369]
+                  - progressbar [ref=e1371]:
+                    - img [ref=e1372]
+                  - paragraph [ref=e1375]: 93.3%
+                - generic [ref=e1376]:
+                  - generic [ref=e1377]:
+                    - paragraph [ref=e1378]: 預計生產量
+                    - paragraph [ref=e1379]: "30"
+                  - separator [ref=e1380]
+                  - generic [ref=e1381]:
+                    - paragraph [ref=e1382]: 實際生產量
+                    - paragraph [ref=e1383]: "28"
+                  - separator [ref=e1384]
+            - generic [ref=e1389]:
+              - generic [ref=e1390]:
+                - img [ref=e1391]
+                - generic "產線即時 OEE" [ref=e1395]:
+                  - generic [ref=e1396]: 產線即時 OEE
+                - generic [ref=e1399]: D-HI-L01A
+                - generic [ref=e1400]:
+                  - button [ref=e1401] [cursor=pointer]:
+                    - img [ref=e1402]
+                  - button [ref=e1405] [cursor=pointer]:
+                    - img [ref=e1406]
+              - paragraph [ref=e1414]: 53.1%
+            - generic [ref=e1419]:
+              - generic [ref=e1420]:
+                - img [ref=e1421]
+                - generic "產線即時稼動率" [ref=e1425]:
+                  - generic [ref=e1426]: 產線即時稼動率
+                - generic [ref=e1429]: D-HI-L01A
+                - generic [ref=e1430]:
+                  - button [ref=e1431] [cursor=pointer]:
+                    - img [ref=e1432]
+                  - button [ref=e1435] [cursor=pointer]:
+                    - img [ref=e1436]
+              - paragraph [ref=e1444]: 53.4%
+            - generic [ref=e1449]:
+              - generic [ref=e1450]:
+                - img [ref=e1451]
+                - generic "產線即時直通率" [ref=e1455]:
+                  - generic [ref=e1456]: 產線即時直通率
+                - generic [ref=e1459]: D-HI-L01A
+                - generic [ref=e1460]:
+                  - button [ref=e1461] [cursor=pointer]:
+                    - img [ref=e1462]
+                  - button [ref=e1465] [cursor=pointer]:
+                    - img [ref=e1466]
+              - generic [ref=e1475]:
+                - generic [ref=e1476]:
+                  - paragraph [ref=e1477]: CTQ
+                  - paragraph [ref=e1479]: 100.0%
+                - generic [ref=e1480]:
+                  - paragraph [ref=e1481]: "| CTP 直通率"
+                  - generic [ref=e1482]:
+                    - separator [ref=e1483]
+                    - paragraph [ref=e1484]: 99.7%
+            - generic [ref=e1489]:
+              - generic [ref=e1490]:
+                - img [ref=e1491]
+                - generic "產線設備停機時間排行" [ref=e1495]:
+                  - generic [ref=e1496]: 產線設備停機時間排行
+                - generic [ref=e1499]: D-HI-L01A
+                - generic [ref=e1500]:
+                  - button [ref=e1501] [cursor=pointer]:
+                    - img [ref=e1502]
+                  - button [ref=e1505] [cursor=pointer]:
+                    - img [ref=e1506]
+              - generic [ref=e1514]:
+                - generic [ref=e1515]:
+                  - generic [ref=e1516]:
+                    - generic [ref=e1518]: Top 1
+                    - heading "6 - 靜態測試機" [level=6] [ref=e1519]:
+                      - link "6 - 靜態測試機" [ref=e1520] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/49337f00-9dd4-4958-acd8-3cb33c99cb2a
+                  - generic [ref=e1523]:
+                    - paragraph [ref=e1524]: "設備總停機時間: 2 分 18 秒"
+                    - paragraph [ref=e1525]: "設備總停機次數: 4"
+                - generic [ref=e1526]:
+                  - generic [ref=e1527]:
+                    - generic [ref=e1529]: Top 2
+                    - heading "21 - 分板機-2" [level=6] [ref=e1530]:
+                      - link "21 - 分板機-2" [ref=e1531] [cursor=pointer]:
+                        - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/a8f37bcd-72a0-4dad-bb9a-d3906d6e561d
+                  - generic [ref=e1534]:
+                    - paragraph [ref=e1535]: "設備總停機時間: 24 秒"
+                    - paragraph [ref=e1536]: "設備總停機次數: 2"

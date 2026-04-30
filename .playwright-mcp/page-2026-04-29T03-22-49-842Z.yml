@@ -1,0 +1,692 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "app icon" [ref=e9] [cursor=pointer]:
+          - /url: /edge-pqm/v2/edge-pqm-frontend/
+          - img "app icon" [ref=e10]
+        - link "Line Manager" [ref=e11] [cursor=pointer]:
+          - /url: /line/indexPage
+        - generic [ref=e13]:
+          - text: WJ3
+          - img [ref=e14]
+          - text: CDP
+          - img [ref=e16]
+          - generic [ref=e18] [cursor=pointer]:
+            - text: C01
+            - img [ref=e19]
+            - text: D-HI-L01A
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+        - link [ref=e27] [cursor=pointer]:
+          - /url: /edge-pqm/v2/edge-pqm-frontend/settings
+          - button [ref=e28]:
+            - img [ref=e29]
+        - button [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+        - generic [ref=e35]: 2.6.0-express-ctp-1
+        - generic [ref=e36] [cursor=pointer]: KL
+    - generic [ref=e39]:
+      - generic [ref=e43]:
+        - tree [ref=e44]:
+          - treeitem "產線生產看板" [selected] [ref=e45]:
+            - link "產線生產看板" [ref=e48] [cursor=pointer]:
+              - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/92e91651-7069-4463-b166-f6192064b08d
+              - generic [ref=e50]:
+                - img [ref=e51]
+                - text: 產線生產看板
+          - treeitem "指標看板" [ref=e53]:
+            - link "指標看板" [ref=e56] [cursor=pointer]:
+              - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fe67bd90-2041-4fe5-a6aa-ca32efbfda6e
+              - generic [ref=e58]:
+                - img [ref=e59]
+                - text: 指標看板
+          - treeitem "設備狀態看板" [ref=e61]:
+            - generic [ref=e62] [cursor=pointer]:
+              - generic [ref=e64]:
+                - img [ref=e65]
+                - text: 設備狀態看板
+              - img [ref=e68]
+        - separator [ref=e70]
+        - tree [ref=e71]:
+          - treeitem "Edge TMM" [ref=e72]:
+            - generic [ref=e73] [cursor=pointer]:
+              - generic [ref=e75]:
+                - img [ref=e76]
+                - text: Edge TMM
+              - img [ref=e79]
+        - tree [ref=e81]:
+          - treeitem "Edge Facility" [ref=e82]:
+            - generic [ref=e83] [cursor=pointer]:
+              - generic [ref=e85]:
+                - img [ref=e86]
+                - text: Edge Facility
+              - img [ref=e89]
+        - tree [ref=e91]:
+          - treeitem "Holmes-M" [ref=e92]:
+            - generic [ref=e93] [cursor=pointer]:
+              - generic [ref=e95]:
+                - img [ref=e96]
+                - text: Holmes-M
+              - img [ref=e100]
+        - separator [ref=e102]
+        - tree [ref=e103]:
+          - treeitem "自訂看板" [expanded] [ref=e104]:
+            - generic [ref=e105] [cursor=pointer]:
+              - generic [ref=e107]:
+                - img [ref=e108]
+                - text: 自訂看板
+                - img [ref=e110]
+              - img [ref=e113]
+            - group [ref=e115]:
+              - generic [ref=e117]:
+                - treeitem "12345" [ref=e118]:
+                  - link "12345" [ref=e121] [cursor=pointer]:
+                    - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/28244f4f-c9db-406c-b286-8113b1146f65
+                    - generic [ref=e122]: "12345"
+                - treeitem "標工達成率" [ref=e123]:
+                  - link "標工達成率" [ref=e126] [cursor=pointer]:
+                    - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/13cd74b6-1eb3-4f50-bd54-a090568c84c7
+                    - generic [ref=e127]: 標工達成率
+                - treeitem "廣義直通率看板" [ref=e128]:
+                  - link "廣義直通率看板" [ref=e131] [cursor=pointer]:
+                    - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53fbe5bb-b9b5-4b20-a9bb-06315bf716bb
+                    - generic [ref=e132]: 廣義直通率看板
+                - treeitem "產線設備狀態看板" [ref=e133]:
+                  - link "產線設備狀態看板" [ref=e136] [cursor=pointer]:
+                    - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ac0cfbd7-e3d7-4dc9-a16e-67a594f38aae
+                    - generic [ref=e137]: 產線設備狀態看板
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - group [ref=e145]:
+                - button "監控" [ref=e146] [cursor=pointer]
+                - button "預覽" [ref=e147] [cursor=pointer]
+              - generic [ref=e148]:
+                - button "全螢幕" [ref=e149] [cursor=pointer]:
+                  - img [ref=e150]
+                - button "複製看板" [ref=e152] [cursor=pointer]:
+                  - img [ref=e153]
+            - heading "Edge PQM • 產線生產看板" [level=6] [ref=e155]:
+              - heading "Edge PQM • 產線生產看板" [level=6] [ref=e158]:
+                - generic [ref=e159]: Edge PQM • 產線生產看板
+            - generic [ref=e161]:
+              - button "文字大小" [ref=e162] [cursor=pointer]:
+                - img [ref=e163]
+              - button "更新" [ref=e165] [cursor=pointer]:
+                - img [ref=e166]
+          - separator [ref=e168]
+        - generic [ref=e172]:
+          - generic:
+            - generic:
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - img [ref=e181]
+                  - generic "產線即時生產資訊" [ref=e185]:
+                    - generic [ref=e186]: 產線即時生產資訊
+                  - generic [ref=e189]: D-HI-L01A
+                  - generic [ref=e190]:
+                    - button [ref=e191] [cursor=pointer]:
+                      - img [ref=e192]
+                    - button [ref=e195] [cursor=pointer]:
+                      - img [ref=e196]
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - paragraph [ref=e206]: 生產工單
+                    - paragraph [ref=e207]: "36126001897"
+                  - separator [ref=e208]
+                  - generic [ref=e209]:
+                    - paragraph [ref=e210]: 生產機種
+                    - paragraph [ref=e211]: "5503795301"
+                  - separator [ref=e212]
+                  - generic [ref=e213]:
+                    - paragraph [ref=e214]: 自動化程度
+                    - paragraph [ref=e215]: 92.3%
+                  - separator [ref=e216]
+                  - generic [ref=e217]:
+                    - paragraph [ref=e218]: 機聯網程度
+                    - paragraph [ref=e219]: 93.8%
+                  - separator [ref=e220]
+                  - generic [ref=e221]:
+                    - paragraph [ref=e222]: 機聯網等級
+                    - paragraph [ref=e223]: "3"
+                  - separator [ref=e224]
+                  - generic [ref=e225]:
+                    - paragraph [ref=e226]: Use Case 數
+                    - paragraph [ref=e227]: "9"
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - img [ref=e234]
+                  - generic "產線即時設備狀態統計" [ref=e238]:
+                    - generic [ref=e239]: 產線即時設備狀態統計
+                  - generic [ref=e242]: D-HI-L01A
+                  - generic [ref=e243]:
+                    - button [ref=e244] [cursor=pointer]:
+                      - img [ref=e245]
+                    - button [ref=e248] [cursor=pointer]:
+                      - img [ref=e249]
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - progressbar [ref=e258]:
+                      - img [ref=e259]
+                    - progressbar [ref=e261]:
+                      - img [ref=e262]
+                    - generic [ref=e265]:
+                      - paragraph [ref=e266]: 工作中
+                      - paragraph [ref=e267]: "4"
+                  - generic [ref=e268]:
+                    - progressbar [ref=e269]:
+                      - img [ref=e270]
+                    - progressbar [ref=e272]:
+                      - img [ref=e273]
+                    - generic [ref=e276]:
+                      - paragraph [ref=e277]: 待機
+                      - paragraph [ref=e278]: "9"
+                  - generic [ref=e279]:
+                    - progressbar [ref=e280]:
+                      - img [ref=e281]
+                    - progressbar [ref=e283]:
+                      - img [ref=e284]
+                    - generic [ref=e287]:
+                      - paragraph [ref=e288]: 異常
+                      - paragraph [ref=e289]: "0"
+                  - generic [ref=e290]:
+                    - progressbar [ref=e291]:
+                      - img [ref=e292]
+                    - progressbar [ref=e294]:
+                      - img [ref=e295]
+                    - generic [ref=e298]:
+                      - paragraph [ref=e299]: 離線
+                      - paragraph [ref=e300]: "2"
+              - generic [ref=e305]:
+                - generic [ref=e306]:
+                  - img [ref=e307]
+                  - generic "產線 24 小時設備綜合效能" [ref=e311]:
+                    - generic [ref=e312]: 產線 24 小時設備綜合效能
+                  - generic [ref=e315]: D-HI-L01A
+                  - generic [ref=e316]:
+                    - button [ref=e317] [cursor=pointer]:
+                      - img [ref=e318]
+                    - button [ref=e321] [cursor=pointer]:
+                      - img [ref=e322]
+                - generic [ref=e330]:
+                  - generic [ref=e331]:
+                    - paragraph [ref=e332]:
+                      - text: 產線稼動率
+                      - paragraph [ref=e333]: (不包含離線時間)
+                    - paragraph [ref=e334]: 53.4%
+                  - generic [ref=e335]:
+                    - paragraph [ref=e336]:
+                      - text: 產線 OEE
+                      - paragraph [ref=e337]: (包含離線時間)
+                    - paragraph [ref=e338]: 53.1%
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - img [ref=e345]
+                  - generic "產線即時直通率" [ref=e349]:
+                    - generic [ref=e350]: 產線即時直通率
+                  - generic [ref=e353]: D-HI-L01A
+                  - generic [ref=e354]:
+                    - button [ref=e355] [cursor=pointer]:
+                      - img [ref=e356]
+                    - button [ref=e359] [cursor=pointer]:
+                      - img [ref=e360]
+                - generic [ref=e368]:
+                  - generic [ref=e369]:
+                    - paragraph [ref=e370]: CTQ 直通率
+                    - paragraph [ref=e371]: 100.0%
+                  - generic [ref=e372]:
+                    - paragraph [ref=e373]: CTP 直通率
+                    - paragraph [ref=e374]:
+                      - text: 99.7%
+                      - img [ref=e375] [cursor=pointer]
+              - generic [ref=e381]:
+                - generic [ref=e382]:
+                  - img [ref=e383]
+                  - generic "產線即時生產效率與節拍" [ref=e387]:
+                    - generic [ref=e388]: 產線即時生產效率與節拍
+                  - generic [ref=e391]: D-HI-L01A
+                  - generic [ref=e392]:
+                    - button [ref=e393] [cursor=pointer]:
+                      - img [ref=e394]
+                    - button [ref=e397] [cursor=pointer]:
+                      - img [ref=e398]
+                - generic [ref=e405]:
+                  - generic [ref=e406]:
+                    - generic [ref=e407]:
+                      - paragraph [ref=e408]: "21"
+                      - paragraph [ref=e409]: 件/時
+                      - img [ref=e411]
+                    - paragraph [ref=e413]: 預估產量 (UPH)
+                  - generic [ref=e414]:
+                    - generic [ref=e415]:
+                      - paragraph [ref=e416]:
+                        - text: "1"
+                        - paragraph [ref=e417]: 分
+                        - text: "28.76"
+                        - paragraph [ref=e418]: 秒
+                      - paragraph [ref=e419]: /件
+                      - img [ref=e421]
+                    - paragraph [ref=e423]: 預估生產節拍 (ATT)
+              - generic [ref=e428]:
+                - generic [ref=e429]:
+                  - img [ref=e430]
+                  - generic "產線即時標工達成率與瓶頸站" [ref=e434]:
+                    - generic [ref=e435]: 產線即時標工達成率與瓶頸站
+                  - generic [ref=e438]: D-HI-L01A
+                  - generic [ref=e439]:
+                    - button [ref=e440] [cursor=pointer]:
+                      - img [ref=e441]
+                    - button [ref=e444] [cursor=pointer]:
+                      - img [ref=e445]
+                - generic [ref=e452]:
+                  - generic [ref=e453]:
+                    - generic [ref=e454]:
+                      - paragraph [ref=e455]: "23.3"
+                      - paragraph [ref=e456]: "%"
+                      - img [ref=e458]
+                    - paragraph [ref=e460]: 預估標工達成率
+                  - generic [ref=e461]:
+                    - generic [ref=e462]:
+                      - paragraph [ref=e463]:
+                        - text: "7"
+                        - paragraph [ref=e464]: 分
+                        - text: "57.95"
+                        - paragraph [ref=e465]: 秒
+                      - paragraph [ref=e466]: /件
+                      - img [ref=e468]
+                    - paragraph [ref=e470]: 當前瓶頸站 CT 時間
+              - generic [ref=e475]:
+                - generic [ref=e476]:
+                  - img [ref=e477]
+                  - generic "產線即時設備資訊" [ref=e481]:
+                    - generic [ref=e482]: 產線即時設備資訊
+                  - generic [ref=e485]: D-HI-L01A
+                  - generic [ref=e486]:
+                    - button [ref=e487] [cursor=pointer]:
+                      - img [ref=e488]
+                    - button [ref=e491] [cursor=pointer]:
+                      - img [ref=e492]
+                - generic [ref=e499]:
+                  - generic [ref=e500]:
+                    - paragraph [ref=e503]: 工作中
+                    - paragraph [ref=e506]: 待機
+                    - paragraph [ref=e509]: 異常
+                    - paragraph [ref=e512]: 離線
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - generic [ref=e515]:
+                        - heading "1 - 推板機" [level=6] [ref=e516]:
+                          - link "1 - 推板機" [ref=e517] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/53edbec4-8edb-4ad8-921e-8703ec9b48d4
+                        - generic [ref=e519]: OP
+                      - generic [ref=e521]:
+                        - paragraph [ref=e522]: "稼動率 : 0.0%"
+                        - table [ref=e524]:
+                          - rowgroup [ref=e525]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e526]:
+                              - columnheader "軌道" [ref=e527]
+                              - columnheader "UPH (Pcs)" [ref=e528]
+                              - columnheader "CT (s)" [ref=e529]
+                          - rowgroup [ref=e530]:
+                            - row "#1 - -" [ref=e531]:
+                              - cell "#1" [ref=e532]
+                              - cell "-" [ref=e533]
+                              - cell "-" [ref=e534]
+                    - generic [ref=e535]:
+                      - generic [ref=e536]:
+                        - heading "2 - 二次線體" [level=6] [ref=e537]:
+                          - link "2 - 二次線體" [ref=e538] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/2a46e0c3-76b7-4fe9-9c37-5f28affa4a86
+                        - generic [ref=e540]: OP
+                      - generic [ref=e542]:
+                        - paragraph [ref=e543]: "稼動率 : 0.0%"
+                        - table [ref=e545]:
+                          - rowgroup [ref=e546]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e547]:
+                              - columnheader "軌道" [ref=e548]
+                              - columnheader "UPH (Pcs)" [ref=e549]
+                              - columnheader "CT (s)" [ref=e550]
+                          - rowgroup [ref=e551]:
+                            - row "#1 - -" [ref=e552]:
+                              - cell "#1" [ref=e553]
+                              - cell "-" [ref=e554]
+                              - cell "-" [ref=e555]
+                    - generic [ref=e556]:
+                      - generic [ref=e557]:
+                        - heading "4 - AOI不良分流機" [level=6] [ref=e558]:
+                          - link "4 - AOI不良分流機" [ref=e559] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/72d4b041-c20d-47b7-8505-5a1114ab43df
+                        - generic [ref=e561]: OP
+                      - generic [ref=e563]:
+                        - paragraph [ref=e564]: "稼動率 : 14.0%"
+                        - table [ref=e566]:
+                          - rowgroup [ref=e567]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e568]:
+                              - columnheader "軌道" [ref=e569]
+                              - columnheader "UPH (Pcs)" [ref=e570]
+                              - columnheader "CT (s)" [ref=e571]
+                          - rowgroup [ref=e572]:
+                            - row "#1 205 25.96" [ref=e573]:
+                              - cell "#1" [ref=e574]
+                              - cell "205" [ref=e575]
+                              - cell "25.96" [ref=e576]
+                    - generic [ref=e577]:
+                      - generic [ref=e578]:
+                        - heading "5 - 自動LINK" [level=6] [ref=e579]:
+                          - link "5 - 自動LINK" [ref=e580] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/fa694e9b-856c-4c53-87a6-1569e6c4358c
+                        - generic [ref=e582]: OP
+                      - generic [ref=e584]:
+                        - paragraph [ref=e585]: "稼動率 : 28.6%"
+                        - table [ref=e587]:
+                          - rowgroup [ref=e588]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e589]:
+                              - columnheader "軌道" [ref=e590]
+                              - columnheader "UPH (Pcs)" [ref=e591]
+                              - columnheader "CT (s)" [ref=e592]
+                          - rowgroup [ref=e593]:
+                            - row "#1 235 21.65" [ref=e594]:
+                              - cell "#1" [ref=e595]
+                              - cell "235" [ref=e596]
+                              - cell "21.65" [ref=e597]
+                    - generic [ref=e598]:
+                      - generic [ref=e599]:
+                        - heading "6 - 靜態測試機" [level=6] [ref=e600]:
+                          - link "6 - 靜態測試機" [ref=e601] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/49337f00-9dd4-4958-acd8-3cb33c99cb2a
+                        - generic [ref=e603]: CTQ
+                      - generic [ref=e605]:
+                        - paragraph [ref=e606]: "稼動率 : 52.5%"
+                        - table [ref=e608]:
+                          - rowgroup [ref=e609]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e610]:
+                              - columnheader "軌道" [ref=e611]
+                              - columnheader "UPH (Pcs)" [ref=e612]
+                              - columnheader "CT (s)" [ref=e613]
+                          - rowgroup [ref=e614]:
+                            - row "#1 115 10.65" [ref=e615]:
+                              - cell "#1" [ref=e616]
+                              - cell "115" [ref=e617]
+                              - cell "10.65" [ref=e618]
+                    - generic [ref=e619]:
+                      - generic [ref=e620]:
+                        - heading "7 - 靜態不良分流機" [level=6] [ref=e621]:
+                          - link "7 - 靜態不良分流機" [ref=e622] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/6283057a-f85d-4960-8fbf-4de4b277c223
+                        - generic [ref=e624]: OP
+                      - generic [ref=e626]:
+                        - paragraph [ref=e627]: "稼動率 : 50.6%"
+                        - table [ref=e629]:
+                          - rowgroup [ref=e630]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e631]:
+                              - columnheader "軌道" [ref=e632]
+                              - columnheader "UPH (Pcs)" [ref=e633]
+                              - columnheader "CT (s)" [ref=e634]
+                          - rowgroup [ref=e635]:
+                            - row "#1 112 49.99" [ref=e636]:
+                              - cell "#1" [ref=e637]
+                              - cell "112" [ref=e638]
+                              - cell "49.99" [ref=e639]
+                    - generic [ref=e640]:
+                      - generic [ref=e641]:
+                        - heading "8 - 自動FUT1" [level=6] [ref=e642]:
+                          - link "8 - 自動FUT1" [ref=e643] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/e3bad0e0-5d51-4de5-9084-e938ce00cc1a
+                        - generic [ref=e645]: CTQ
+                      - generic [ref=e647]:
+                        - paragraph [ref=e648]: "稼動率 : 56.9%"
+                        - table [ref=e650]:
+                          - rowgroup [ref=e651]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e652]:
+                              - columnheader "軌道" [ref=e653]
+                              - columnheader "UPH (Pcs)" [ref=e654]
+                              - columnheader "CT (s)" [ref=e655]
+                          - rowgroup [ref=e656]:
+                            - row "#1 68 44.60" [ref=e657]:
+                              - cell "#1" [ref=e658]
+                              - cell "68" [ref=e659]
+                              - cell "44.60" [ref=e660]
+                    - generic [ref=e661]:
+                      - generic [ref=e662]:
+                        - heading "9 - 自動FUT2" [level=6] [ref=e663]:
+                          - link "9 - 自動FUT2" [ref=e664] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/ad16c387-9fbb-48b5-a7f7-165fb5a2935c
+                        - generic [ref=e666]: CTQ
+                      - generic [ref=e668]:
+                        - paragraph [ref=e669]: "稼動率 : 43.5%"
+                        - table [ref=e671]:
+                          - rowgroup [ref=e672]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e673]:
+                              - columnheader "軌道" [ref=e674]
+                              - columnheader "UPH (Pcs)" [ref=e675]
+                              - columnheader "CT (s)" [ref=e676]
+                          - rowgroup [ref=e677]:
+                            - row "#1 184 -" [ref=e678]:
+                              - cell "#1" [ref=e679]
+                              - cell "184" [ref=e680]
+                              - cell "-" [ref=e681]
+                    - generic [ref=e682]:
+                      - generic [ref=e683]:
+                        - heading "10 - ICT後翻板移栽1" [level=6] [ref=e684]:
+                          - link "10 - ICT後翻板移栽1" [ref=e685] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/3782b107-c6dd-4475-8488-12fe099a1e67
+                        - generic [ref=e687]: OP
+                      - generic [ref=e689]:
+                        - paragraph [ref=e690]: "稼動率 : 98.3%"
+                        - table [ref=e692]:
+                          - rowgroup [ref=e693]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e694]:
+                              - columnheader "軌道" [ref=e695]
+                              - columnheader "UPH (Pcs)" [ref=e696]
+                              - columnheader "CT (s)" [ref=e697]
+                          - rowgroup [ref=e698]:
+                            - row "#1 312 1.69" [ref=e699]:
+                              - cell "#1" [ref=e700]
+                              - cell "312" [ref=e701]
+                              - cell "1.69" [ref=e702]
+                    - generic [ref=e703]:
+                      - generic [ref=e704]:
+                        - heading "12 - ICT後不良分流機-2" [level=6] [ref=e705]:
+                          - link "12 - ICT後不良分流機-2" [ref=e706] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/218d386d-d1f7-43e3-8d2f-4a9e5fd90c85
+                        - generic [ref=e708]: OP
+                      - generic [ref=e710]:
+                        - paragraph [ref=e711]: "稼動率 : 60.7%"
+                        - table [ref=e713]:
+                          - rowgroup [ref=e714]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e715]:
+                              - columnheader "軌道" [ref=e716]
+                              - columnheader "UPH (Pcs)" [ref=e717]
+                              - columnheader "CT (s)" [ref=e718]
+                          - rowgroup [ref=e719]:
+                            - row "#1 129 7.06" [ref=e720]:
+                              - cell "#1" [ref=e721]
+                              - cell "129" [ref=e722]
+                              - cell "7.06" [ref=e723]
+                    - generic [ref=e724]:
+                      - generic [ref=e725]:
+                        - heading "14 - 噴膠機2-1" [level=6] [ref=e726]:
+                          - link "14 - 噴膠機2-1" [ref=e727] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/b425b823-a567-4288-9837-8d62a103692d
+                        - generic [ref=e729]: CTP
+                      - generic [ref=e731]:
+                        - paragraph [ref=e732]: "稼動率 : 55.4%"
+                        - paragraph [ref=e733]:
+                          - text: "TMM 品質分析 :"
+                          - link "正常" [ref=e734] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/TMM?lineName=D-HI-L01A&machineId=E022356002_1
+                        - table [ref=e736]:
+                          - rowgroup [ref=e737]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e738]:
+                              - columnheader "軌道" [ref=e739]
+                              - columnheader "UPH (Pcs)" [ref=e740]
+                              - columnheader "CT (s)" [ref=e741]
+                          - rowgroup [ref=e742]:
+                            - row "#1 45 31.80" [ref=e743]:
+                              - cell "#1" [ref=e744]
+                              - cell "45" [ref=e745]
+                              - cell "31.80" [ref=e746]
+                    - generic [ref=e747]:
+                      - generic [ref=e748]:
+                        - heading "15 - ICT後翻板移栽2" [level=6] [ref=e749]:
+                          - link "15 - ICT後翻板移栽2" [ref=e750] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/b4f7abc4-4517-4c8c-8342-b6563dcbcbdf
+                        - generic [ref=e752]: OP
+                      - generic [ref=e754]:
+                        - paragraph [ref=e755]: "稼動率 : 97.3%"
+                        - table [ref=e757]:
+                          - rowgroup [ref=e758]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e759]:
+                              - columnheader "軌道" [ref=e760]
+                              - columnheader "UPH (Pcs)" [ref=e761]
+                              - columnheader "CT (s)" [ref=e762]
+                          - rowgroup [ref=e763]:
+                            - row "#1 136 477.95" [ref=e764]:
+                              - cell "#1" [ref=e765]
+                              - cell "136" [ref=e766]
+                              - cell "477.95" [ref=e767]
+                    - generic [ref=e768]:
+                      - generic [ref=e769]:
+                        - heading "17 - 噴膠機2-2" [level=6] [ref=e770]:
+                          - link "17 - 噴膠機2-2" [ref=e771] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/9164352f-db48-4936-b2ab-8c3d0e542503
+                        - generic [ref=e773]: CTP
+                      - generic [ref=e775]:
+                        - paragraph [ref=e776]: "稼動率 : 39.3%"
+                        - table [ref=e778]:
+                          - rowgroup [ref=e779]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e780]:
+                              - columnheader "軌道" [ref=e781]
+                              - columnheader "UPH (Pcs)" [ref=e782]
+                              - columnheader "CT (s)" [ref=e783]
+                          - rowgroup [ref=e784]:
+                            - row "#1 35 4.41" [ref=e785]:
+                              - cell "#1" [ref=e786]
+                              - cell "35" [ref=e787]
+                              - cell "4.41" [ref=e788]
+                    - generic [ref=e789]:
+                      - generic [ref=e790]:
+                        - heading "19 - UV炉-2" [level=6] [ref=e791]:
+                          - link "19 - UV炉-2" [ref=e792] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/1a3327b6-e297-44d3-9bcd-f1ffd27aa093
+                        - generic [ref=e794]: CTP
+                      - generic [ref=e796]:
+                        - paragraph [ref=e797]: "稼動率 : 42.1%"
+                        - paragraph [ref=e798]:
+                          - text: "TMM 品質分析 :"
+                          - link "正常" [ref=e799] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/TMM?lineName=D-HI-L01A&machineId=E022111201_1
+                        - table [ref=e801]:
+                          - rowgroup [ref=e802]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e803]:
+                              - columnheader "軌道" [ref=e804]
+                              - columnheader "UPH (Pcs)" [ref=e805]
+                              - columnheader "CT (s)" [ref=e806]
+                          - rowgroup [ref=e807]:
+                            - row "#1 37 255.45" [ref=e808]:
+                              - cell "#1" [ref=e809]
+                              - cell "37" [ref=e810]
+                              - cell "255.45" [ref=e811]
+                    - generic [ref=e812]:
+                      - generic [ref=e813]:
+                        - heading "21 - 分板機-2" [level=6] [ref=e814]:
+                          - link "21 - 分板機-2" [ref=e815] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/a8f37bcd-72a0-4dad-bb9a-d3906d6e561d
+                        - generic [ref=e817]: CTP
+                      - generic [ref=e819]:
+                        - paragraph [ref=e820]: "稼動率 : 54.6%"
+                        - paragraph [ref=e821]:
+                          - text: "TMM 品質分析 :"
+                          - link "正常" [ref=e822] [cursor=pointer]:
+                            - /url: /edge-pqm/v2/edge-pqm-frontend/dashboards/TMM?lineName=D-HI-L01A&machineId=E022359701_1
+                        - table [ref=e824]:
+                          - rowgroup [ref=e825]:
+                            - row "軌道 UPH (Pcs) CT (s)" [ref=e826]:
+                              - columnheader "軌道" [ref=e827]
+                              - columnheader "UPH (Pcs)" [ref=e828]
+                              - columnheader "CT (s)" [ref=e829]
+                          - rowgroup [ref=e830]:
+                            - row "#1 21 23.70" [ref=e831]:
+                              - cell "#1" [ref=e832]
+                              - cell "21" [ref=e833]
+                              - cell "23.70" [ref=e834]
+              - generic [ref=e840]:
+                - img [ref=e841]
+                - generic "產線即時 ATT" [ref=e845]:
+                  - generic [ref=e846]: 產線即時 ATT
+                - generic [ref=e847]:
+                  - button [ref=e848] [cursor=pointer]:
+                    - img [ref=e849]
+                  - button [ref=e852] [cursor=pointer]:
+                    - img [ref=e853]
+              - generic [ref=e864]:
+                - img [ref=e865]
+                - generic "產線即時 CT / 線平衡" [ref=e869]:
+                  - generic [ref=e870]: 產線即時 CT / 線平衡
+                - generic [ref=e871]:
+                  - button [ref=e872] [cursor=pointer]:
+                    - img [ref=e873]
+                  - button [ref=e876] [cursor=pointer]:
+                    - img [ref=e877]
+              - generic [ref=e888]:
+                - img [ref=e889]
+                - generic "產線每小時標工達成率" [ref=e893]:
+                  - generic [ref=e894]: 產線每小時標工達成率
+                - generic [ref=e895]:
+                  - button [ref=e896] [cursor=pointer]:
+                    - img [ref=e897]
+                  - button [ref=e900] [cursor=pointer]:
+                    - img [ref=e901]
+              - generic [ref=e912]:
+                - img [ref=e913]
+                - generic "產線每小時稼動率" [ref=e917]:
+                  - generic [ref=e918]: 產線每小時稼動率
+                - generic [ref=e919]:
+                  - button [ref=e920] [cursor=pointer]:
+                    - img [ref=e921]
+                  - button [ref=e924] [cursor=pointer]:
+                    - img [ref=e925]
+              - generic [ref=e936]:
+                - img [ref=e937]
+                - generic "產線每小時 UPH" [ref=e941]:
+                  - generic [ref=e942]: 產線每小時 UPH
+                - generic [ref=e943]:
+                  - button [ref=e944] [cursor=pointer]:
+                    - img [ref=e945]
+                  - button [ref=e948] [cursor=pointer]:
+                    - img [ref=e949]
+              - generic [ref=e960]:
+                - img [ref=e961]
+                - generic "產線每小時直通率" [ref=e965]:
+                  - generic [ref=e966]: 產線每小時直通率
+                - generic [ref=e967]:
+                  - button [ref=e968] [cursor=pointer]:
+                    - img [ref=e969]
+                  - button [ref=e972] [cursor=pointer]:
+                    - img [ref=e973]
+              - generic [ref=e984]:
+                - img [ref=e985]
+                - generic "產線即時瓶頸站分析" [ref=e989]:
+                  - generic [ref=e990]: 產線即時瓶頸站分析
+                - generic [ref=e991]:
+                  - button [ref=e992] [cursor=pointer]:
+                    - img [ref=e993]
+                  - button [ref=e996] [cursor=pointer]:
+                    - img [ref=e997]
+              - generic [ref=e1008]:
+                - img [ref=e1009]
+                - generic "產線即時站點狀態" [ref=e1013]:
+                  - generic [ref=e1014]: 產線即時站點狀態
+                - generic [ref=e1015]:
+                  - button [ref=e1016] [cursor=pointer]:
+                    - img [ref=e1017]
+                  - button [ref=e1020] [cursor=pointer]:
+                    - img [ref=e1021]
+  - tooltip "產線即時標工達成率與瓶頸站":
+    - generic: 產線即時標工達成率與瓶頸站

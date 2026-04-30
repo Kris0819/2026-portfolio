@@ -1,0 +1,204 @@
+/* ==========================================================================
+   HeroUI v3 — Colors & Type
+   Reconstructed from HeroUI v3 public docs and @heroui/styles.
+   OKLCH tokens, light/dark themes via [data-theme="dark"] or .dark on <html>.
+   ========================================================================== */
+
+/* Geist (HeroUI's default sans) and Geist Mono via Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
+
+/* ---------- LIGHT THEME (default) ---------- */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  /* Base */
+  --background: oklch(0.9702 0 0);
+  --foreground: oklch(0.2103 0.0059 285.89);
+
+  /* Surface (inline cards, panels, sheets) */
+  --surface: oklch(100% 0 0);
+  --surface-foreground: oklch(0.2103 0.0059 285.89);
+  --surface-secondary: color-mix(in oklab, var(--surface) 96%, var(--surface-foreground) 4%);
+  --surface-tertiary:  color-mix(in oklab, var(--surface) 92%, var(--surface-foreground) 8%);
+
+  /* Overlay (popovers, menus, modals — opaque white in light mode) */
+  --overlay: oklch(100% 0 0);
+  --overlay-foreground: oklch(0.2103 0.0059 285.89);
+
+  /* Muted (secondary text, subtle backgrounds) */
+  --muted: oklch(0.967 0.001 286.375);
+  --muted-foreground: oklch(0.552 0.0144 285.95);
+
+  /* Borders / separators */
+  --border: oklch(0.92 0.004 286.32);
+  --separator: oklch(0.92 0.004 286.32);
+
+  /* Form fields */
+  --field: oklch(100% 0 0);
+  --field-foreground: oklch(0.2103 0.0059 285.89);
+  --field-border: oklch(0.92 0.004 286.32);
+  --field-placeholder: oklch(0.6 0.014 286);
+
+  /* Backdrop (modal scrim) */
+  --backdrop: oklch(0 0 0 / 0.5);
+
+  /* Accent — brand primary (HeroUI default blue ≈ #006FEE) */
+  --accent: oklch(0.6204 0.195 253.83);
+  --accent-foreground: oklch(0.9911 0 0);
+  --accent-hover: oklch(0.55 0.195 253.83);
+  --accent-soft: color-mix(in oklab, var(--accent) 18%, transparent);
+  --accent-soft-foreground: var(--accent);
+  --accent-soft-hover: color-mix(in oklab, var(--accent) 26%, transparent);
+
+  /* Success — green */
+  --success: oklch(0.6489 0.165 152.71);
+  --success-foreground: oklch(0.9911 0 0);
+  --success-hover: oklch(0.58 0.165 152.71);
+  --success-soft: color-mix(in oklab, var(--success) 18%, transparent);
+  --success-soft-foreground: oklch(0.45 0.16 152);
+
+  /* Warning — amber */
+  --warning: oklch(0.7686 0.1647 70.08);
+  --warning-foreground: oklch(0.21 0.04 70);
+  --warning-hover: oklch(0.71 0.165 70);
+  --warning-soft: color-mix(in oklab, var(--warning) 22%, transparent);
+  --warning-soft-foreground: oklch(0.45 0.13 60);
+
+  /* Danger — red */
+  --danger: oklch(0.6532 0.2328 25.74);
+  --danger-foreground: oklch(0.9911 0 0);
+  --danger-hover: oklch(0.58 0.2328 25.74);
+  --danger-soft: color-mix(in oklab, var(--danger) 18%, transparent);
+  --danger-soft-foreground: oklch(0.5 0.2 25);
+
+  /* Default — neutral gray (secondary buttons, chips) */
+  --default: oklch(0.92 0.004 286.32);
+  --default-foreground: oklch(0.2103 0.0059 285.89);
+  --default-hover: oklch(0.88 0.004 286.32);
+  --default-soft: color-mix(in oklab, var(--default) 50%, transparent);
+  --default-soft-foreground: var(--foreground);
+
+  /* Focus ring — alias of accent */
+  --focus: var(--accent);
+
+  /* Radius scale (--radius is the seed; rest are calculated) */
+  --radius: 0.5rem;             /* 8px  */
+  --radius-xs: calc(var(--radius) * 0.5);   /* 4px  */
+  --radius-sm: calc(var(--radius) * 0.75);  /* 6px  */
+  --radius-md: var(--radius);               /* 8px  */
+  --radius-lg: calc(var(--radius) * 1.25);  /* 10px */
+  --radius-xl: calc(var(--radius) * 1.5);   /* 12px */
+  --radius-2xl: calc(var(--radius) * 2);    /* 16px */
+  --radius-3xl: calc(var(--radius) * 2.5);  /* 20px */
+  --radius-4xl: calc(var(--radius) * 3);    /* 24px */
+
+  /* Shadows */
+  --shadow-surface:
+    0 2px 4px 0 rgba(0, 0, 0, 0.04),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06),
+    0 0 1px 0 rgba(0, 0, 0, 0.06);
+  --shadow-overlay:
+    0 4px 16px 0 rgba(24, 24, 27, 0.08),
+    0 8px 24px 0 rgba(24, 24, 27, 0.09);
+  --shadow-field:
+    inset 0 0 0 1px var(--field-border);
+
+  /* Easings */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out-fluid: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Type */
+  --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* ---------- DARK THEME ---------- */
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --background: oklch(0.12 0.005 285.823);
+  --foreground: oklch(0.9911 0 0);
+
+  --surface: oklch(0.2103 0.0059 285.89);
+  --surface-foreground: oklch(0.9911 0 0);
+  --surface-secondary: color-mix(in oklab, var(--surface) 92%, var(--surface-foreground) 8%);
+  --surface-tertiary:  color-mix(in oklab, var(--surface) 86%, var(--surface-foreground) 14%);
+
+  --overlay: oklch(0.24 0.006 286);
+  --overlay-foreground: oklch(0.9911 0 0);
+
+  --muted: oklch(0.27 0.006 286);
+  --muted-foreground: oklch(0.71 0.014 286);
+
+  --border: oklch(0.22 0.006 286.033);
+  --separator: oklch(0.22 0.006 286.033);
+
+  --field: oklch(0.18 0.006 286);
+  --field-foreground: oklch(0.9911 0 0);
+  --field-border: oklch(0.28 0.006 286);
+  --field-placeholder: oklch(0.55 0.014 286);
+
+  --backdrop: oklch(0 0 0 / 0.7);
+
+  --accent: oklch(0.7 0.18 253.83);
+  --accent-foreground: oklch(0.15 0 0);
+  --accent-hover: oklch(0.78 0.16 253.83);
+
+  --success: oklch(0.72 0.16 152);
+  --success-foreground: oklch(0.15 0 0);
+  --success-hover: oklch(0.78 0.14 152);
+
+  --warning: oklch(0.82 0.16 70);
+  --warning-foreground: oklch(0.21 0.04 70);
+  --warning-hover: oklch(0.86 0.15 70);
+
+  --danger: oklch(0.72 0.21 25.74);
+  --danger-foreground: oklch(0.15 0 0);
+  --danger-hover: oklch(0.78 0.19 25.74);
+
+  --default: oklch(0.27 0.006 286);
+  --default-foreground: oklch(0.9911 0 0);
+  --default-hover: oklch(0.32 0.006 286);
+
+  --focus: var(--accent);
+
+  /* Dark-mode shadows are nearly transparent — depth comes from surface lightness */
+  --shadow-surface:
+    0 2px 4px 0 rgba(0, 0, 0, 0.25),
+    0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-overlay:
+    0 4px 16px 0 rgba(0, 0, 0, 0.4),
+    0 8px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* ==========================================================================
+   Base type rules
+   HeroUI v3 doesn't ship typography tokens — it leans on Tailwind.
+   These are pragmatic defaults matching the heroui.com site.
+   ========================================================================== */
+html { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { background: var(--background); color: var(--foreground); font-family: var(--font-sans); font-size: 15px; line-height: 1.55; }
+
+h1, .h1 { font-size: 48px; line-height: 1.05; font-weight: 700; letter-spacing: -0.025em; color: var(--foreground); }
+h2, .h2 { font-size: 32px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em; color: var(--foreground); }
+h3, .h3 { font-size: 24px; line-height: 1.25; font-weight: 600; letter-spacing: -0.015em; color: var(--foreground); }
+h4, .h4 { font-size: 18px; line-height: 1.35; font-weight: 600; letter-spacing: -0.01em; color: var(--foreground); }
+h5, .h5 { font-size: 15px; line-height: 1.4;  font-weight: 600; color: var(--foreground); }
+h6, .h6 { font-size: 13px; line-height: 1.4;  font-weight: 600; color: var(--muted-foreground); text-transform: uppercase; letter-spacing: 0.06em; }
+
+p,  .p { font-size: 15px; line-height: 1.6; color: var(--foreground); }
+.lead { font-size: 18px; line-height: 1.55; color: var(--muted-foreground); }
+.small, small { font-size: 13px; line-height: 1.5; color: var(--muted-foreground); }
+.tiny { font-size: 11px; line-height: 1.4; color: var(--muted-foreground); }
+
+code, kbd, pre, samp, .mono { font-family: var(--font-mono); font-size: 0.92em; }
+code { background: var(--muted); border: 1px solid var(--border); padding: 0.1em 0.4em; border-radius: var(--radius-sm); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); }
+
+::selection { background: var(--accent-soft); color: var(--accent-soft-foreground); }
