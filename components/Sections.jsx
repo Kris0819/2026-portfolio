@@ -121,11 +121,7 @@ function About({ t }) {
         <div className="about-grid">
           <div className="about-portrait">
             <div className="about-portrait-inner">
-              <img src="uploads/kris-portrait.png" alt="Kris Lu" style={{ width: "100%", display: "block", borderRadius: "inherit" }} />
-            </div>
-            <div className="badge">
-              <span style={{ color: "var(--muted-foreground)", fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 600 }}>Portrait</span>
-              <span style={{ color: "var(--muted-foreground)" }}>placeholder</span>
+              <img src="uploads/kris-portrait.png" alt="Kris Lu" style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "bottom" }} />
             </div>
           </div>
           <div>
