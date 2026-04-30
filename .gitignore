@@ -1,0 +1,10 @@
+# Playwright MCP temp files
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
